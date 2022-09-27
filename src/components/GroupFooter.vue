@@ -29,9 +29,7 @@
         <p>2022 © All Rights Reserved by CPC</p>
         <p>
           <a href="#/home">Home</a>
-          <el-divider direction="vertical" />
           <a href="#/publications">Publications</a>
-          <el-divider direction="vertical" />
           <a href="#/about">About</a>
         </p>
       </div>

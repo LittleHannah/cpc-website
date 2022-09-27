@@ -4,7 +4,7 @@
     <nav class="navbar navbar-light bg-light second-nav" style="justify-content: center;padding: 0;">
       <div style="width:1200px;padding: 0 10px;">
         <div style="height:150px;display: flex;align-items: center;">
-          <a style="display:block;font-size:2rem;font-weight: 550;" class="navbar-brand">
+          <a style="display:block;font-size:2rem;font-weight: 550;">
             <span class="highlight">C</span>hinese <span class="highlight">P</span>angenome <span class="highlight">C</span>onsortium (Phase I)
           </a>
         </div>
@@ -40,10 +40,11 @@ export default {
   color: var(--main-color) !important;
 }
 .nav-links {
+  flex-flow: row wrap;
   > a  {
-    margin-right: 1rem;
+    margin-right: 0.75rem;
     text-decoration: none;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     font-weight: 500;
     color: #606266;
   }
