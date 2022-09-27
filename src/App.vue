@@ -5,7 +5,8 @@
       <div style="width:1200px;padding: 0 10px;">
         <div style="height:150px;display: flex;align-items: center;">
           <a style="display:block;font-size:2rem;font-weight: 550;">
-            <span class="highlight">C</span>hinese <span class="highlight">P</span>angenome <span class="highlight">C</span>onsortium (Phase I)
+            <span class="highlight">C</span>hinese <span class="highlight">P</span>angenome <span
+              class="highlight">C</span>onsortium (Phase I)
           </a>
         </div>
         <div style="display: flex;" class="nav-links">
@@ -17,8 +18,10 @@
         </div>
       </div>
     </nav>
-    <router-view style="height:500px" />
-    <GroupFooter />
+    <div style="max-width: 1200px; margin: 0 auto">
+      <router-view style="min-height:500px;"/>
+    </div>
+    <GroupFooter/>
   </div>
 </template>
 
@@ -31,7 +34,7 @@ export default {
   components: {
     GroupNav,
     GroupFooter
-}
+  }
 }
 </script>
 
@@ -39,9 +42,11 @@ export default {
 .highlight {
   color: var(--main-color) !important;
 }
+
 .nav-links {
   flex-flow: row wrap;
-  > a  {
+
+  > a {
     margin-right: 0.75rem;
     text-decoration: none;
     font-size: 1.15rem;
@@ -53,6 +58,7 @@ export default {
     color: var(--main-color) !important;
   }
 }
+
 .nav-link-active {
   color: var(--main-color) !important;
   border-bottom: 3px solid var(--main-color);
