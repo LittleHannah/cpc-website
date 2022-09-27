@@ -22,7 +22,7 @@
           </div>
         </div>
         <!--          第二个人-->
-        <div class="el-card is-always-shadow" style="margin-left:80px;border-radius: 20px;">
+        <div class="el-card is-always-shadow" style="margin-left:5px;border-radius: 20px;">
           <div class="col-sm">
             <div class="el-card_body" style="padding: 5px;border-radius: 20px;">
               <img src="https://www.pgghan.org/HCGD/images/team/luyan.jpg" class="image">
@@ -36,7 +36,7 @@
           </div>
         </div>
         <!--          第三个人-->
-        <div class="el-card is-always-shadow" style="margin-left:80px;border-radius: 20px;">
+        <div class="el-card is-always-shadow" style="margin-left:5px;border-radius: 20px;">
           <div class="col-sm">
             <div class="el-card_body" style="padding: 5px;border-radius: 20px;">
               <img src="http://pog.fudan.edu.cn/pggmhc/img/xiaohanzhao.322bd791.jpg" class="image">
@@ -97,7 +97,7 @@ p {
     }
   }
 
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
 
 </style>
