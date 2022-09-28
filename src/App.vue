@@ -19,7 +19,7 @@
       </div>
     </nav>
     <div style="max-width: 1200px; margin: 0 auto">
-      <router-view style="min-height:360px;"/>
+      <router-view style="min-height:500px;"/>
     </div>
     <GroupFooter/>
   </div>
