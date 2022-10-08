@@ -15,7 +15,7 @@
               <img src="http://pog.fudan.edu.cn/pggmhc/img/shuhuaxu.09ee412e.jpg" class="image">
               <div style="padding: 5px 10px 10px; max-width: 171px">
                 <h5 align="center"> Shuhua Xu </h5>
-                <span class="position">个人职位 <br> </span>
+                <!--                <span class="position">个人职位 <br> </span>-->
                 <span class="contribution">Principal Investigator</span>
               </div>
             </div>
@@ -28,9 +28,9 @@
               <img src="https://www.pgghan.org/HCGD/images/team/luyan.jpg" class="image">
               <div style="padding: 5px 10px 10px; max-width: 171px">
                 <h5 align="center"> Yan Lu </h5>
-                <span class="position">个人职位 <br> </span>
+                <!--                <span class="position">个人职位 <br> </span>-->
                 <span class="contribution"
-                      style="justify-content: center; white-space: pre-wrap">个人贡献个人贡献</span>
+                      style="justify-content: center; white-space: pre-wrap">Associate Research Fellow</span>
               </div>
             </div>
           </div>
@@ -42,9 +42,9 @@
               <img src="http://pog.fudan.edu.cn/pggmhc/img/xiaohanzhao.322bd791.jpg" class="image">
               <div style="padding: 5px 10px 10px; max-width: 171px">
                 <h5 align="center"> Xiaohan Zhao </h5>
-                <span class="position">个人职位 <br> </span>
+                <!--                <span class="position">个人职位 <br> </span>-->
                 <span class="contribution"
-                      style="justify-content: center; white-space: pre-wrap">个人贡献个人贡献</span>
+                      style="justify-content: center; white-space: pre-wrap">Master's Student</span>
               </div>
             </div>
           </div>
@@ -70,7 +70,7 @@ export default {
 }
 
 span {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 p {
