@@ -36,7 +36,9 @@
     <!--    <div class="el-tabs_content">-->
     <!--      <div role="tabpanel" id="pane-1" aria-labelledby="tab-1" class="el-tab-pane" style="padding: 20px;display: none;" aria-hidden="true">-->
     <!--        <div>-->
-    <div class="title" style="max-width: 1200px;">
+
+    <!--    <div class="title" style="max-width: 1200px;">-->
+    <div class="card-title" style="padding: 15px; max-width: 1200px;">
       Contact Us
     </div>
 
@@ -90,7 +92,8 @@
         </div>
       </div>
     </div>
-    <img src="http://pog.fudan.edu.cn/pggmhc/img/map.445ad7b1.png" style="width: 100%; margin-top: 20px;">
+    <img src="http://pog.fudan.edu.cn/pggmhc/img/map.445ad7b1.png"
+         style="width: 100%; margin-top: 20px;margin-block-end: 20px;">
     <!--        </div>-->
     <!--      </div>-->
     <!--    </div>-->
@@ -156,6 +159,7 @@ export default {
 h4 {
   margin: 0;
 }
+
 .card-title {
   margin-left: 8px;
   font-size: 20px;

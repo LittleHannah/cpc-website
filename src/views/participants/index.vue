@@ -1,409 +1,370 @@
 <template>
   <div>
-    <div class="tab-pane" id="tab-2">
-      <div class="detail-title-1"><b>Team</b></div>
+    <div class="tab-pane" id="tab-2" style=" max-width: 1200px;margin-top: 20px;margin-block-end: 20px;">
+      <div class="card-title" style="padding: 5px;">
+        Team
+      </div>
+      <!--            <div class="detail-title-1" style="padding: 5px;">-->
+      <!--              Team-->
+      <!--            </div>-->
       <blockquote class="about-blockquote">
         <p>The database was designed, created and maintained by Population Genomics group (PGG) led by Dr. Shuhua
           Xu.</p>
       </blockquote>
-      <div class="row spacing-20 m-b-10">
+      <div class="row spacing-20 m-b-10" style="display: flex; flex-flow: wrap;">
         <!-- 通讯作者们-->
         <!-- 第一个人-->
-        <div class="el-card is-always-shadow" style="margin-left:5px;border-radius: 20px;">
-          <div class="col-sm-4 col-md-3">
-            <div class="card team-box">
-              <div class="img">
-                <img src="http://pog.fudan.edu.cn/pggmhc/img/shuhuaxu.09ee412e.jpg" class="image">
-              </div>
-              <div style="padding: 5px 10px 10px; max-width: 171px">
-                <h5 align="center"> Shuhua Xu </h5>
-                <!--                <span class="position">个人职位 <br> </span>-->
-                <span class="contribution">Principal Investigator</span>
-              </div>
+        <!--        <div class="el-card is-always-shadow" style="margin-left:5px;border-radius: 20px;">-->
+        <div class="col-sm-4 col-md-3">
+          <div class="card team-box">
+            <div class="img">
+              <img src="http://pog.fudan.edu.cn/pggmhc/img/shuhuaxu.09ee412e.jpg" class="image">
+            </div>
+            <div style="padding: 10px 10px 10px; max-width: 171px">
+              <h5 align="center"> Shuhua Xu </h5>
+              <!--                <span class="position">个人职位 <br> </span>-->
+              <!--              <span class="contribution">Principal Investigator</span>-->
             </div>
           </div>
         </div>
-
-
+        <!--        </div>-->
         <!--  第二个人-->
-        <div class="el-card is-always-shadow" style="margin-left:5px;border-radius: 20px;">
-          <div class="col-sm-4 col-md-3">
-            <div class="card team-box">
-              <div class="img">
-                <img src="http://www.xjtu.edu.cn/dx0831yekai.png" class="image">
-              </div>
-              <div style="padding: 5px 10px 10px; max-width: 171px">
-                <h5 align="center"> Kai Ye </h5>
-                <!--                <span class="position">个人职位 <br> </span>-->
-                <span class="contribution"
-                      style="justify-content: center; white-space: pre-wrap">Associate Research Fellow</span>
-              </div>
+        <div class="col-sm-4 col-md-3">
+          <div class="card team-box">
+            <div class="img">
+              <img src="http://www.xjtu.edu.cn/dx0831yekai.png" class="image">
+            </div>
+            <div style="padding: 10px 10px 10px; max-width: 171px">
+              <h5 align="center"> Kai Ye </h5>
+              <!--                <span class="position">个人职位 <br> </span>-->
+
+              <!--              <span class="contribution"-->
+              <!--                    style="justify-content: center; white-space: pre-wrap">Associate Research Fellow</span>-->
             </div>
           </div>
         </div>
 
-        <!--  第三个人还没找到照片-->
-        <div class="el-card is-always-shadow" style="margin-left:5px;border-radius: 20px;">
-          <div class="col-sm-4 col-md-3">
-            <div class="card team-box">
-              <div class="img">
-                <img src="http://www.xjtu.edu.cn/dx0831yekai.png" class="image">
-              </div>
-              <div style="padding: 5px 10px 10px; max-width: 171px">
-                <h5 align="center"> Jiayou Chu </h5>
-                <!--                <span class="position">个人职位 <br> </span>-->
-                <span class="contribution"
-                      style="justify-content: center; white-space: pre-wrap">Associate Research Fellow</span>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!--        &lt;!&ndash;  第三个人还没找到照片&ndash;&gt;-->
+        <!--        <div class="col-sm-4 col-md-3">-->
+        <!--          <div class="card team-box">-->
+        <!--            <div class="img">-->
+        <!--              <img src="http://www.xjtu.edu.cn/dx0831yekai.png" class="image">-->
+        <!--            </div>-->
+        <!--            <div style="padding: 5px 10px 10px; max-width: 171px">-->
+        <!--              <h5 align="center"> Jiayou Chu </h5>-->
+        <!--              &lt;!&ndash;                <span class="position">个人职位 <br> </span>&ndash;&gt;-->
+        <!--&lt;!&ndash;              <span class="contribution"&ndash;&gt;-->
+        <!--&lt;!&ndash;                    style="justify-content: center; white-space: pre-wrap">Associate Research Fellow</span>&ndash;&gt;-->
+        <!--            </div>-->
+        <!--          </div>-->
+        <!--        </div>-->
 
         <!-- 第四个人-->
-        <div class="el-card is-always-shadow" style="margin-left:5px;border-radius: 20px;">
-          <div class="col-sm-4 col-md-3">
-            <div class="card team-box">
-              <div class="img">
-                <img src="https://www.pgghan.org/HCGD/images/team/luyan.jpg" class="image">
-              </div>
-              <div style="padding: 5px 10px 10px; max-width: 171px">
-                <h5 align="center"> Yan Lu </h5>
-                <!--                <span class="position">个人职位 <br> </span>-->
-                <span class="contribution"
-                      style="justify-content: center; white-space: pre-wrap">Associate Research Fellow</span>
-              </div>
+        <div class="col-sm-4 col-md-3">
+          <div class="card team-box">
+            <div class="img">
+              <img src="https://www.pgghan.org/HCGD/images/team/luyan.jpg" class="image">
+            </div>
+            <div style="padding: 10px 10px 10px; max-width: 171px">
+              <h5 align="center"> Yan Lu </h5>
+              <!--                <span class="position">个人职位 <br> </span>-->
+              <!--              <span class="contribution"-->
+              <!--                    style="justify-content: center; white-space: pre-wrap">Associate Research Fellow</span>-->
             </div>
           </div>
         </div>
 
         <!-- 第五个人 放校长？还是紧接着一作。。。-->
-        <div class="el-card is-always-shadow" style="margin-left:5px;border-radius: 20px;">
-          <div class="col-sm-4 col-md-3">
-            <div class="card team-box">
-              <div class="img">
-                <img
-                    src="https://life.fudan.edu.cn/_upload/article/images/99/c3/4a17814d47539f1dbf24fb7dc219/dc6fe60b-9848-4bc7-8cd6-0c46f9e502ec.jpg"
-                    class="image">
-              </div>
-              <div style="padding: 5px 10px 10px; max-width: 171px">
-                <h5 align="center"> Li Jin </h5>
-                <!--                <span class="position">个人职位 <br> </span>-->
-                <span class="contribution"
-                      style="justify-content: center; white-space: pre-wrap">Master's Student</span>
-              </div>
+        <div class="col-sm-4 col-md-3">
+          <div class="card team-box">
+            <div class="img">
+              <img
+                  src="https://life.fudan.edu.cn/_upload/article/images/99/c3/4a17814d47539f1dbf24fb7dc219/dc6fe60b-9848-4bc7-8cd6-0c46f9e502ec.jpg"
+                  class="image">
+            </div>
+            <div style="padding: 10px 10px 10px; max-width: 171px">
+              <h5 align="center"> Li Jin </h5>
+              <!--                <span class="position">个人职位 <br> </span>-->
+              <!--              <span class="contribution"-->
+              <!--                    style="justify-content: center; white-space: pre-wrap">Master's Student</span>-->
             </div>
           </div>
         </div>
 
         <!-- 第六个人 一作-->
-        <div class="el-card is-always-shadow" style="margin-left:5px;border-radius: 20px;">
-          <div class="col-sm-4 col-md-3">
-            <div class="card team-box">
-              <div class="img">
-                <img src="http://pog.fudan.edu.cn/upload/admin-upload/avatar/YangGao.jpg" class="image">
-              </div>
-              <div style="padding: 5px 10px 10px; max-width: 171px">
-                <h5 align="center"> Yang Gao </h5>
-                <!--                <span class="position">个人职位 <br> </span>-->
-                <span class="contribution"
-                      style="justify-content: center; white-space: pre-wrap">Master's Student</span>
-              </div>
+        <div class="col-sm-4 col-md-3">
+          <div class="card team-box">
+            <div class="img">
+              <img src="http://pog.fudan.edu.cn/upload/admin-upload/avatar/YangGao.jpg" class="image">
+            </div>
+            <div style="padding: 10px 10px 10px; max-width: 171px">
+              <h5 align="center"> Yang Gao </h5>
+              <!--                <span class="position">个人职位 <br> </span>-->
+              <!--              <span class="contribution"-->
+              <!--                    style="justify-content: center; white-space: pre-wrap">Master's Student</span>-->
             </div>
           </div>
         </div>
 
         <!-- 第七个人 -->
-        <div class="el-card is-always-shadow" style="margin-left:5px;border-radius: 20px;">
-          <div class="col-sm-4 col-md-3">
-            <div class="card team-box">
-              <div class="img">
-                <img src="http://www.cs.xjtu.edu.cn/__local/3/B8/46/9DCE4FBFE5890C2E1E33CD31D68_DC2E76DF_36B48.jpg"
-                     class="image">
-              </div>
-              <div style="padding: 5px 10px 10px; max-width: 171px">
-                <h5 align="center"> Xiaofei Yang </h5>
-                <!--                <span class="position">个人职位 <br> </span>-->
-                <span class="contribution"
-                      style="justify-content: center; white-space: pre-wrap">Master's Student</span>
-              </div>
+        <div class="col-sm-4 col-md-3">
+          <div class="card team-box">
+            <div class="img">
+              <img src="http://www.cs.xjtu.edu.cn/__local/3/B8/46/9DCE4FBFE5890C2E1E33CD31D68_DC2E76DF_36B48.jpg"
+                   class="image">
+            </div>
+            <div style="padding: 10px 10px 10px; max-width: 171px">
+              <h5 align="center"> Xiaofei Yang </h5>
+              <!--                <span class="position">个人职位 <br> </span>-->
+              <!--              <span class="contribution"-->
+              <!--                    style="justify-content: center; white-space: pre-wrap">Master's Student</span>-->
             </div>
           </div>
         </div>
 
         <!-- 第八个人-->
-        <div class="el-card is-always-shadow" style="margin-left:5px;border-radius: 20px;">
-          <div class="col-sm-4 col-md-3">
-            <div class="card team-box">
-              <div class="img">
-                <img src="http://pog.fudan.edu.cn/upload/admin-upload/avatar/HaoChen.jpg" class="image">
-              </div>
-              <div style="padding: 5px 10px 10px; max-width: 171px">
-                <h5 align="center"> Hao Chen </h5>
-                <!--                <span class="position">个人职位 <br> </span>-->
-                <span class="contribution"
-                      style="justify-content: center; white-space: pre-wrap">Master's Student</span>
-              </div>
+        <div class="col-sm-4 col-md-3">
+          <div class="card team-box">
+            <div class="img">
+              <img src="http://pog.fudan.edu.cn/upload/admin-upload/avatar/HaoChen.jpg" class="image">
+            </div>
+            <div style="padding: 10px 10px 10px; max-width: 171px">
+              <h5 align="center"> Hao Chen </h5>
+              <!--                <span class="position">个人职位 <br> </span>-->
+              <!--              <span class="contribution"-->
+              <!--                    style="justify-content: center; white-space: pre-wrap">Master's Student</span>-->
             </div>
           </div>
         </div>
 
         <!-- 第九个人-->
-        <div class="el-card is-always-shadow" style="margin-left:5px;border-radius: 20px;">
-          <div class="col-sm-4 col-md-3">
-            <div class="card team-box">
-              <div class="img">
-                <img src="http://pog.fudan.edu.cn/upload/admin-upload/avatar/XinjiangTan.jpeg" class="image">
-              </div>
-              <div style="padding: 5px 10px 10px; max-width: 171px">
-                <h5 align="center"> Xinjiang Tan </h5>
-                <!--                <span class="position">个人职位 <br> </span>-->
-                <span class="contribution"
-                      style="justify-content: center; white-space: pre-wrap">Master's Student</span>
-              </div>
+        <div class="col-sm-4 col-md-3">
+          <div class="card team-box">
+            <div class="img">
+              <img src="http://pog.fudan.edu.cn/upload/admin-upload/avatar/XinjiangTan.jpeg" class="image">
+            </div>
+            <div style="padding: 10px 10px 10px; max-width: 171px">
+              <h5 align="center"> Xinjiang Tan </h5>
+              <!--                <span class="position">个人职位 <br> </span>-->
+              <!--              <span class="contribution"-->
+              <!--                    style="justify-content: center; white-space: pre-wrap">Master's Student</span>-->
             </div>
           </div>
         </div>
 
-        <!-- 第十个人 还没找到照片。-->
-        <div class="el-card is-always-shadow" style="margin-left:5px;border-radius: 20px;">
-          <div class="col-sm-4 col-md-3">
-            <div class="card team-box">
-              <div class="img">
-                <img src="http://pog.fudan.edu.cn/pggmhc/img/xiaohanzhao.322bd791.jpg" class="image">
-              </div>
-              <div style="padding: 5px 10px 10px; max-width: 171px">
-                <h5 align="center"> Zhaoqing Yang </h5>
-                <!--                <span class="position">个人职位 <br> </span>-->
-                <span class="contribution"
-                      style="justify-content: center; white-space: pre-wrap">Master's Student</span>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!--        &lt;!&ndash; 第十个人 还没找到照片。&ndash;&gt;-->
+        <!--        <div class="col-sm-4 col-md-3">-->
+        <!--          <div class="card team-box">-->
+        <!--            <div class="img">-->
+        <!--              <img src="http://pog.fudan.edu.cn/pggmhc/img/xiaohanzhao.322bd791.jpg" class="image">-->
+        <!--            </div>-->
+        <!--            <div style="padding: 5px 10px 10px; max-width: 171px">-->
+        <!--              <h5 align="center"> Zhaoqing Yang </h5>-->
+        <!--              &lt;!&ndash;                <span class="position">个人职位 <br> </span>&ndash;&gt;-->
+        <!--&lt;!&ndash;              <span class="contribution"&ndash;&gt;-->
+        <!--&lt;!&ndash;                    style="justify-content: center; white-space: pre-wrap">Master's Student</span>&ndash;&gt;-->
+        <!--            </div>-->
+        <!--          </div>-->
+        <!--        </div>-->
 
         <!-- 第十一个人-->
-        <div class="el-card is-always-shadow" style="margin-left:5px;border-radius: 20px;">
-          <div class="col-sm-4 col-md-3">
-            <div class="card team-box">
-              <div class="img">
-                <img src="http://pog.fudan.edu.cn/upload/admin-upload/avatar/LianDeng.jpeg" class="image">
-              </div>
-              <div style="padding: 5px 10px 10px; max-width: 171px">
-                <h5 align="center"> Lian Deng </h5>
-                <!--                <span class="position">个人职位 <br> </span>-->
-                <span class="contribution"
-                      style="justify-content: center; white-space: pre-wrap">Master's Student</span>
-              </div>
+        <div class="col-sm-4 col-md-3">
+          <div class="card team-box">
+            <div class="img">
+              <img src="http://pog.fudan.edu.cn/upload/admin-upload/avatar/LianDeng.jpeg" class="image">
+            </div>
+            <div style="padding: 10px 10px 10px; max-width: 171px">
+              <h5 align="center"> Lian Deng </h5>
+              <!--                <span class="position">个人职位 <br> </span>-->
+              <!--              <span class="contribution"-->
+              <!--                    style="justify-content: center; white-space: pre-wrap">Master's Student</span>-->
             </div>
           </div>
         </div>
 
         <!-- 第十二个人 -->
-        <div class="el-card is-always-shadow" style="margin-left:5px;border-radius: 20px;">
-          <div class="col-sm-4 col-md-3">
-            <div class="card team-box">
-              <div class="img">
-                <img src="http://pog.fudan.edu.cn/upload/admin-upload/avatar/YiminWang.jpeg" class="image">
-              </div>
-              <div style="padding: 5px 10px 10px; max-width: 171px">
-                <h5 align="center"> Yimin Wang </h5>
-                <!--                <span class="position">个人职位 <br> </span>-->
-                <span class="contribution"
-                      style="justify-content: center; white-space: pre-wrap">Master's Student</span>
-              </div>
+        <div class="col-sm-4 col-md-3">
+          <div class="card team-box">
+            <div class="img">
+              <img src="http://pog.fudan.edu.cn/upload/admin-upload/avatar/YiminWang.jpeg" class="image">
+            </div>
+            <div style="padding: 10px 10px 10px; max-width: 171px">
+              <h5 align="center"> Yimin Wang </h5>
+              <!--                <span class="position">个人职位 <br> </span>-->
+              <!--              <span class="contribution"-->
+              <!--                    style="justify-content: center; white-space: pre-wrap">Master's Student</span>-->
             </div>
           </div>
         </div>
 
         <!-- 第十三个人 -->
-        <div class="el-card is-always-shadow" style="margin-left:5px;border-radius: 20px;">
-          <div class="col-sm-4 col-md-3">
-            <div class="card team-box">
-              <div class="img">
-                <img src="http://pog.fudan.edu.cn/upload/admin-upload/avatar/BaonanWang.jpeg" class="image">
-              </div>
-              <div style="padding: 5px 10px 10px; max-width: 171px">
-                <h5 align="center"> Baonan Wang </h5>
-                <!--                <span class="position">个人职位 <br> </span>-->
-                <span class="contribution"
-                      style="justify-content: center; white-space: pre-wrap">Master's Student</span>
-              </div>
+        <div class="col-sm-4 col-md-3">
+          <div class="card team-box">
+            <div class="img">
+              <img src="http://pog.fudan.edu.cn/upload/admin-upload/avatar/BaonanWang.jpeg" class="image">
+            </div>
+            <div style="padding: 10px 10px 10px; max-width: 171px">
+              <h5 align="center"> Baonan Wang </h5>
+              <!--                <span class="position">个人职位 <br> </span>-->
+              <!--              <span class="contribution"-->
+              <!--                    style="justify-content: center; white-space: pre-wrap">Master's Student</span>-->
             </div>
           </div>
         </div>
 
         <!-- 第十四个人 。-->
-        <div class="el-card is-always-shadow" style="margin-left:5px;border-radius: 20px;">
-          <div class="col-sm-4 col-md-3">
-            <div class="card team-box">
-              <div class="img">
-                <img src="http://pog.fudan.edu.cn/upload/admin-upload/avatar/SongyangLi.jpeg" class="image">
-              </div>
-              <div style="padding: 5px 10px 10px; max-width: 171px">
-                <h5 align="center"> Songyang Li </h5>
-                <!--                <span class="position">个人职位 <br> </span>-->
-                <span class="contribution"
-                      style="justify-content: center; white-space: pre-wrap">Master's Student</span>
-              </div>
+        <div class="col-sm-4 col-md-3">
+          <div class="card team-box">
+            <div class="img">
+              <img src="http://pog.fudan.edu.cn/upload/admin-upload/avatar/SongyangLi.jpeg" class="image">
+            </div>
+            <div style="padding: 10px 10px 10px; max-width: 171px">
+              <h5 align="center"> Songyang Li </h5>
+              <!--                <span class="position">个人职位 <br> </span>-->
+              <!--              <span class="contribution"-->
+              <!--                    style="justify-content: center; white-space: pre-wrap">Master's Student</span>-->
             </div>
           </div>
         </div>
 
         <!-- 第十五个人 -->
-        <div class="el-card is-always-shadow" style="margin-left:5px;border-radius: 20px;">
-          <div class="col-sm-4 col-md-3">
-            <div class="card team-box">
-              <div class="img">
-                <img src="http://pog.fudan.edu.cn/upload/admin-upload/avatar/YuhangCui.jpeg" class="image">
-              </div>
-              <div style="padding: 5px 10px 10px; max-width: 171px">
-                <h5 align="center"> Yuhang Cui </h5>
-                <!--                <span class="position">个人职位 <br> </span>-->
-                <span class="contribution"
-                      style="justify-content: center; white-space: pre-wrap">Master's Student</span>
-              </div>
+        <div class="col-sm-4 col-md-3">
+          <div class="card team-box">
+            <div class="img">
+              <img src="http://pog.fudan.edu.cn/upload/admin-upload/avatar/YuhangCui.jpeg" class="image">
+            </div>
+            <div style="padding: 10px 10px 10px; max-width: 171px">
+              <h5 align="center"> Yuhang Cui </h5>
+              <!--                <span class="position">个人职位 <br> </span>-->
+              <!--              <span class="contribution"-->
+              <!--                    style="justify-content: center; white-space: pre-wrap">Master's Student</span>-->
             </div>
           </div>
         </div>
 
         <!-- 第十六个人 -->
-        <div class="el-card is-always-shadow" style="margin-left:5px;border-radius: 20px;">
-          <div class="col-sm-4 col-md-3">
-            <div class="card team-box">
-              <div class="img">
-                <img src="http://pog.fudan.edu.cn/upload/admin-upload/avatar/YuwenPan.jpeg" class="image">
-              </div>
-              <div style="padding: 5px 10px 10px; max-width: 171px">
-                <h5 align="center"> Yuwen Pan </h5>
-                <!--                <span class="position">个人职位 <br> </span>-->
-                <span class="contribution"
-                      style="justify-content: center; white-space: pre-wrap">Master's Student</span>
-              </div>
+        <div class="col-sm-4 col-md-3">
+          <div class="card team-box">
+            <div class="img">
+              <img src="http://pog.fudan.edu.cn/upload/admin-upload/avatar/YuwenPan.jpeg" class="image">
+            </div>
+            <div style="padding: 10px 10px 10px; max-width: 171px">
+              <h5 align="center"> Yuwen Pan </h5>
+              <!--                <span class="position">个人职位 <br> </span>-->
+              <!--              <span class="contribution"-->
+              <!--                    style="justify-content: center; white-space: pre-wrap">Master's Student</span>-->
             </div>
           </div>
         </div>
 
         <!-- 第十七个人-->
-        <div class="el-card is-always-shadow" style="margin-left:5px;border-radius: 20px;">
-          <div class="col-sm-4 col-md-3">
-            <div class="card team-box">
-              <div class="img">
-                <img src="http://pog.fudan.edu.cn/upload/admin-upload/avatar/SenMa.jpeg" class="image">
-              </div>
-              <div style="padding: 5px 10px 10px; max-width: 171px">
-                <h5 align="center"> Sen Ma </h5>
-                <!--                <span class="position">个人职位 <br> </span>-->
-                <span class="contribution"
-                      style="justify-content: center; white-space: pre-wrap">Master's Student</span>
-              </div>
+        <div class="col-sm-4 col-md-3">
+          <div class="card team-box">
+            <div class="img">
+              <img src="http://pog.fudan.edu.cn/upload/admin-upload/avatar/SenMa.jpeg" class="image">
+            </div>
+            <div style="padding: 10px 10px 10px; max-width: 171px">
+              <h5 align="center"> Sen Ma </h5>
+              <!--                <span class="position">个人职位 <br> </span>-->
+              <!--              <span class="contribution"-->
+              <!--                    style="justify-content: center; white-space: pre-wrap">Master's Student</span>-->
             </div>
           </div>
         </div>
 
-        <!-- 第十八个人 还没找到照片 -->
-        <div class="el-card is-always-shadow" style="margin-left:5px;border-radius: 20px;">
-          <div class="col-sm-4 col-md-3">
-            <div class="card team-box">
-              <div class="img">
-                <img src="http://pog.fudan.edu.cn/pggmhc/img/xiaohanzhao.322bd791.jpg" class="image">
-              </div>
-              <div style="padding: 5px 10px 10px; max-width: 171px">
-                <h5 align="center"> Hao Sun </h5>
-                <!--                <span class="position">个人职位 <br> </span>-->
-                <span class="contribution"
-                      style="justify-content: center; white-space: pre-wrap">Master's Student</span>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!--        &lt;!&ndash; 第十八个人 还没找到照片 &ndash;&gt;-->
+        <!--        <div class="col-sm-4 col-md-3">-->
+        <!--          <div class="card team-box">-->
+        <!--            <div class="img">-->
+        <!--              <img src="http://pog.fudan.edu.cn/pggmhc/img/xiaohanzhao.322bd791.jpg" class="image">-->
+        <!--            </div>-->
+        <!--            <div style="padding: 5px 10px 10px; max-width: 171px">-->
+        <!--              <h5 align="center"> Hao Sun </h5>-->
+        <!--              &lt;!&ndash;                <span class="position">个人职位 <br> </span>&ndash;&gt;-->
+        <!--&lt;!&ndash;              <span class="contribution"&ndash;&gt;-->
+        <!--&lt;!&ndash;                    style="justify-content: center; white-space: pre-wrap">Master's Student</span>&ndash;&gt;-->
+        <!--            </div>-->
+        <!--          </div>-->
+        <!--        </div>-->
 
         <!-- 第十九个人  -->
-        <div class="el-card is-always-shadow" style="margin-left:5px;border-radius: 20px;">
-          <div class="col-sm-4 col-md-3">
-            <div class="card team-box">
-              <div class="img">
-                <img src="http://pog.fudan.edu.cn/upload/admin-upload/avatar/ShuangKong.JPG" class="image">
-              </div>
-              <div style="padding: 5px 10px 10px; max-width: 171px">
-                <h5 align="center"> Shuang Kong </h5>
-                <!--                <span class="position">个人职位 <br> </span>-->
-                <span class="contribution"
-                      style="justify-content: center; white-space: pre-wrap">Master's Student</span>
-              </div>
+        <div class="col-sm-4 col-md-3">
+          <div class="card team-box">
+            <div class="img">
+              <img src="http://pog.fudan.edu.cn/upload/admin-upload/avatar/ShuangKong.JPG" class="image">
+            </div>
+            <div style="padding: 10px 10px 10px; max-width: 171px">
+              <h5 align="center"> Shuang Kong </h5>
+              <!--                <span class="position">个人职位 <br> </span>-->
+              <!--              <span class="contribution"-->
+              <!--                    style="justify-content: center; white-space: pre-wrap">Master's Student</span>-->
             </div>
           </div>
         </div>
 
         <!-- 第二十个人 -->
-        <div class="el-card is-always-shadow" style="margin-left:5px;border-radius: 20px;">
-          <div class="col-sm-4 col-md-3">
-            <div class="card team-box">
-              <div class="img">
-                <img src="http://pog.fudan.edu.cn/pggmhc/img/xiaohanzhao.322bd791.jpg" class="image">
-              </div>
-              <div style="padding: 5px 10px 10px; max-width: 171px">
-                <h5 align="center"> Xiaohan Zhao </h5>
-                <!--                <span class="position">个人职位 <br> </span>-->
-                <span class="contribution"
-                      style="justify-content: center; white-space: pre-wrap">Master's Student</span>
-              </div>
+        <div class="col-sm-4 col-md-3">
+          <div class="card team-box">
+            <div class="img">
+              <img src="http://pog.fudan.edu.cn/pggmhc/img/xiaohanzhao.322bd791.jpg" class="image">
+            </div>
+            <div style="padding: 10px 10px 10px; max-width: 171px">
+              <h5 align="center"> Xiaohan Zhao </h5>
+              <!--                <span class="position">个人职位 <br> </span>-->
+              <!--              <span class="contribution"-->
+              <!--                    style="justify-content: center; white-space: pre-wrap">Master's Student</span>-->
             </div>
           </div>
         </div>
         <!-- 第二十一个人 -->
-        <div class="el-card is-always-shadow" style="margin-left:5px;border-radius: 20px;">
-          <div class="col-sm-4 col-md-3">
-            <div class="card team-box">
-              <div class="img">
-                <img src="https://people.ucas.edu.cn/self/img/ff9c073c-d6af-448c-8667-66edec4d66c7.jpg" class="image">
-              </div>
-              <div style="padding: 5px 10px 10px; max-width: 171px">
-                <h5 align="center">Dongdong Wu </h5>
-                <!--                <span class="position">个人职位 <br> </span>-->
-                <span class="contribution"
-                      style="justify-content: center; white-space: pre-wrap">Master's Student</span>
-              </div>
+        <div class="col-sm-4 col-md-3">
+          <div class="card team-box">
+            <div class="img">
+              <img src="https://people.ucas.edu.cn/self/img/ff9c073c-d6af-448c-8667-66edec4d66c7.jpg" class="image">
+            </div>
+            <div style="padding: 10px 10px 10px; max-width: 171px">
+              <h5 align="center">Dongdong Wu </h5>
+              <!--                <span class="position">个人职位 <br> </span>-->
+              <!--              <span class="contribution"-->
+              <!--                    style="justify-content: center; white-space: pre-wrap">Master's Student</span>-->
             </div>
           </div>
         </div>
         <!-- 第二十二个人 -->
-        <div class="el-card is-always-shadow" style="margin-left:5px;border-radius: 20px;">
-          <div class="col-sm-4 col-md-3">
-            <div class="card team-box">
-              <div class="img">
-                <img
-                    src="https://xpic.x-mol.com/tutor%2F20200227%2FXMGNPV01463.png?x-oss-process=image/resize,m_lfit,h_200,w_200"
-                    class="image">
-              </div>
-              <div style="padding: 5px 10px 10px; max-width: 171px">
-                <h5 align="center"> Shaoyuan Wu </h5>
-                <!--                <span class="position">个人职位 <br> </span>-->
-                <span class="contribution"
-                      style="justify-content: center; white-space: pre-wrap">Master's Student</span>
-              </div>
+        <div class="col-sm-4 col-md-3">
+          <div class="card team-box">
+            <div class="img">
+              <img
+                  src="https://xpic.x-mol.com/tutor%2F20200227%2FXMGNPV01463.png?x-oss-process=image/resize,m_lfit,h_200,w_200"
+                  class="image">
+            </div>
+            <div style="padding: 10px 10px 10px; max-width: 171px">
+              <h5 align="center"> Shaoyuan Wu </h5>
+              <!--                <span class="position">个人职位 <br> </span>-->
+              <!--              <span class="contribution"-->
+              <!--                    style="justify-content: center; white-space: pre-wrap">Master's Student</span>-->
             </div>
           </div>
         </div>
 
         <!-- 第二十三个人 还没找到照片 -->
-        <div class="el-card is-always-shadow" style="margin-left:5px;border-radius: 20px;">
-          <div class="col-sm-4 col-md-3">
-            <div class="card team-box">
-              <div class="img">
-                <img
-                    src="https://xpic.x-mol.com/tutor%2F20200227%2FXMGNPV01463.png?x-oss-process=image/resize,m_lfit,h_200,w_200"
-                    class="image">
-              </div>
-              <div style="padding: 5px 10px 10px; max-width: 171px">
-                <h5 align="center"> Binyin Shi </h5>
-                <!--                <span class="position">个人职位 <br> </span>-->
-                <span class="contribution"
-                      style="justify-content: center; white-space: pre-wrap">Master's Student</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
+        <!--        <div class="col-sm-4 col-md-3">-->
+        <!--          <div class="card team-box">-->
+        <!--            <div class="img">-->
+        <!--              <img-->
+        <!--                  src="https://xpic.x-mol.com/tutor%2F20200227%2FXMGNPV01463.png?x-oss-process=image/resize,m_lfit,h_200,w_200"-->
+        <!--                  class="image">-->
+        <!--            </div>-->
+        <!--            <div style="padding: 5px 10px 10px; max-width: 171px">-->
+        <!--              <h5 align="center" > Binyin Shi </h5>-->
+        <!--              &lt;!&ndash;                <span class="position">个人职位 <br> </span>&ndash;&gt;-->
+        <!--&lt;!&ndash;              <span class="contribution"&ndash;&gt;-->
+        <!--&lt;!&ndash;                    style="justify-content: center; white-space: pre-wrap">Master's Student</span>&ndash;&gt;-->
+        <!--            </div>-->
+        <!--          </div>-->
+        <!--        </div>-->
+        <!--        -->
+        <!--        -->
 
       </div>
     </div>
@@ -418,12 +379,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
-.card {
+.card-title {
   margin-left: 8px;
   font-size: 20px;
-  color: #606266;
+  color: #5F74A4FF;
 }
+
+//.detail-title-1 {
+//  margin-left: 8px;
+//  font-size: 20px;
+//  color: #5F74A4FF;
+//}
 
 span {
   font-size: 13px;
@@ -434,7 +400,7 @@ p {
   color: #606266;
 }
 
-.el-card {
+.col-sm-4 {
   .img {
     color: #606266;
     position: relative;
@@ -453,7 +419,7 @@ p {
     }
   }
 
-  margin-bottom: 50px;
+  //margin-bottom: 50px;
 }
 
 .spacing-20 [class^=col-] {
@@ -546,6 +512,7 @@ img {
   margin-bottom: 30px;
   //box-shadow: 0px 0px 30px rgb(115 128 157 / 30%);
 }
+
 .detail-title-1, .detail-title-2 {
   margin-top: 10px;
   position: relative;
@@ -555,24 +522,58 @@ img {
   font-size: 20px;
   color: var(--links-items-color);
 }
+
 blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
   font-size: 17.5px;
   border-left: 5px solid #eee;
 }
+
 blockquote {
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 40px;
-  margin-inline-end: 40px;
+  margin-inline-end: -50px;
 }
+
 .about-blockquote {
-  background: #D0E4E8FF;
+  background: #F7F9FAFF;
   border-color: #D0E4E8FF;
 }
 
+.spacing-20 {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.m-b-10 {
+  margin-bottom: 10px !important;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+}
+
+h5 {
+  color: #696D7CFF;
+}
+
+//.tab-pane{
+//  background: #F7F9FAFF;
+//  margin-right: 30px;
+//  margin-left: 30px;
+//}
 //.detail-box {
 //  padding: 20px 30px;
 //  display: block;
