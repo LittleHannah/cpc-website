@@ -9,7 +9,7 @@
               class="highlight">C</span>onsortium (Phase I)
           </a>
         </div>
-        <div style="display: flex;" class="nav-links">
+        <div style="display: flex;margin-block-end: 20px; " class="nav-links">
           <router-link active-class="nav-link-active" to="/home">Home</router-link>
           <router-link active-class="nav-link-active" to="/participants">Participants</router-link>
           <router-link active-class="nav-link-active" to="/data">Data</router-link>
