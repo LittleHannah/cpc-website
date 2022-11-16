@@ -1,10 +1,9 @@
 <template>
   <div>
-    <div class="row" style="max-width: 1200px;padding: 15px;">
-      <div class="card-title" style="padding: 15px;">
+    <h2>
         Aims and Scope
-      </div>
-      <div class="card-content">
+      </h2>
+      <div>
         <p>
           China is populated with multiple ethnic groups with high cultural and language diversities, including 55
           officially recognized ethnic minority groups in addition to the Han Chinese majority and a considerable number
@@ -32,16 +31,9 @@
           both domestic and international communities.
         </p>
       </div>
-    </div>
-    <!--    <div class="el-tabs_content">-->
-    <!--      <div role="tabpanel" id="pane-1" aria-labelledby="tab-1" class="el-tab-pane" style="padding: 20px;display: none;" aria-hidden="true">-->
-    <!--        <div>-->
-
-    <!--    <div class="title" style="max-width: 1200px;">-->
-    <div class="card-title" style="padding: 15px; max-width: 1200px;">
-      Contact Us
-    </div>
-
+      <h2>
+        Contact Us
+      </h2>
     <div style="display: flex;flex-wrap: wrap;justify-content: space-between;margin-top: 20px;">
       <div class="col-sm">
         <div class="icon-group">
@@ -93,10 +85,7 @@
       </div>
     </div>
     <img src="http://pog.fudan.edu.cn/pggmhc/img/map.445ad7b1.png"
-         style="width: 100%; margin-top: 20px;margin-block-end: 20px;">
-    <!--        </div>-->
-    <!--      </div>-->
-    <!--    </div>-->
+         style="width: 100%;margin-bottom: 20px;">
   </div>
 </template>
 
@@ -108,6 +97,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '@/scss/index.scss';
 .el-tabs__content {
   overflow: hidden;
   position: relative;
@@ -166,17 +156,7 @@ h4 {
   color: #5F74A4FF;
 }
 
-.card-content {
-  text-align: justify;
-  display: flex;
-  justify-content: space-between;
-  margin-left: 20px;
-  font-size: 16px;
-  color: #606266;
-}
-
 p {
-  text-align: justify;
   color: #606266;
 }
 </style>

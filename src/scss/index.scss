@@ -6,3 +6,24 @@
   --my-bg-primary: 14,11,42;
   --my-font-primary: 61,136,247;
 }
+
+h2::before {
+  display: inline-block;
+  content: '';
+  width: 4px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 1px;
+  background-color: var(--subtext-color);
+  background-color: rgb(40, 95, 202);
+}
+h2 {
+background-color: rgb(246, 248, 253);
+border-radius: 5px;
+height: 60px;
+color: rgb(40, 95, 202);
+line-height: 60px;
+font-size: 28px;
+font-weight: 540;
+margin: 20px 0;
+}

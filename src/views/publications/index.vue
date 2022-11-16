@@ -1,6 +1,9 @@
 <template>
-  <div style="padding: 20px;">
+  <!-- <div style="padding: 20px;">
     <PublicationList/>
+  </div> -->
+  <div style="padding:20px 10px">
+    CPC publication is now available in preprint: <a href='https://europepmc.org/article/PPR/PPR557648'>https://europepmc.org/article/PPR/PPR557648</a>.
   </div>
 </template>
 
