@@ -8,7 +8,7 @@
           China is populated with multiple ethnic groups with high cultural and language diversities, including 55
           officially recognized ethnic minority groups in addition to the Han Chinese majority and a considerable number
           of unrecognized ethnic groups. We showed previously that Individuals of Chinese or Asian ancestry harbor a
-          great genomic diversity6. As the first effort (Phase I) of the CPC, the current pangenome reference
+          great genomic diversity. As the first effort (Phase I) of the CPC, the current pangenome reference
           constructed by the CPC was based on 58 CPC core samples representing 36 of the 55 ethnic minority groups and 8
           linguistic groups. At the stage of Phase II, apart from the initial 58 core samples, CPC aims to produce
           high-quality, phased, chromosome-level haplotype sequences of 500 individuals, which will cover the 56 ethnic
@@ -17,7 +17,7 @@
           endeavor of the CPC, most likely at its Phase III or partly at Phase II, is to generate telomere-to-telomere
           (T2T) chromosome sequence assemblies with both HiFi reads and nanopore ultra-long reads data. We appreciate
           that the fully-phased T2T diploid genomes will be paradigm-shift and the new standard in population-level
-          genomic studies 14. In parallel with the effort to document genomic diversity, significant efforts have been
+          genomic studies. In parallel with the effort to document genomic diversity, significant efforts have been
           invested in comprehensively annotating the elements in the CPC genomes that confer function, such as genes,
           control elements, and transcript isoforms. China has been an important part of the global force of human
           genomics since the Human Genome Project, the International HapMap Project, and the 1000 Genomes Project.
@@ -38,7 +38,7 @@
       <div class="col-sm">
         <div class="icon-group">
           <div class="icon-border">
-            <img src="http://pog.fudan.edu.cn/pggmhc/img/Team.e3c06613.svg" class="icon-img">
+            <img src="@/assets/img/about/Group.svg" class="icon-img">
           </div>
           <div style="width: 420px;">
             <p class="icon-title">Group</p>
@@ -50,7 +50,7 @@
       <div class="col-sm">
         <div class="icon-group">
           <div class="icon-border">
-            <img src="http://pog.fudan.edu.cn/pggmhc/img/institution.c75e4c0a.svg" class="icon-img">
+            <img src="@/assets/img/about/institution.svg" class="icon-img">
           </div>
           <div style="width: 420px;">
             <p class="icon-title">Institution</p>
@@ -62,7 +62,7 @@
       <div class="col-sm">
         <div class="icon-group">
           <div class="icon-border">
-            <img src="http://pog.fudan.edu.cn/pggmhc/img/mail.b573cf73.svg" class="icon-img">
+            <img src="@/assets/img/about/mail.svg" class="icon-img">
           </div>
           <div style="width: 420px;">
             <p class="icon-title">Email</p>
@@ -74,7 +74,7 @@
       <div class="col-sm">
         <div class="icon-group">
           <div class="icon-border">
-            <img src="http://pog.fudan.edu.cn/pggmhc/img/address.3506e28e.svg" class="icon-img">
+            <img src="@/assets/img/about/address.svg" class="icon-img">
           </div>
           <div style="width: 420px;">
             <p class="icon-title">Address</p>
@@ -84,7 +84,7 @@
         </div>
       </div>
     </div>
-    <img src="http://pog.fudan.edu.cn/pggmhc/img/map.445ad7b1.png"
+    <img src="@/assets/img/about/map.png"
          style="width: 100%;margin-bottom: 20px;">
   </div>
 </template>
@@ -158,5 +158,6 @@ h4 {
 
 p {
   color: #606266;
+  font-size: 18px;
 }
 </style>

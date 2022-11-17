@@ -2,9 +2,9 @@
 
 :root {
   --main-color: #1D4193;
-  --btn-color: 100,102,233;
-  --my-bg-primary: 14,11,42;
-  --my-font-primary: 61,136,247;
+  --btn-color: 100, 102, 233;
+  --my-bg-primary: 14, 11, 42;
+  --my-font-primary: 61, 136, 247;
 }
 
 h2::before {
@@ -14,16 +14,19 @@ h2::before {
   height: 20px;
   margin-right: 10px;
   border-radius: 1px;
-  background-color: var(--subtext-color);
-  background-color: rgb(40, 95, 202);
+  //background-color: var(--subtext-color);
+  background-color: #f8f9fa;
 }
+
 h2 {
-background-color: rgb(246, 248, 253);
-border-radius: 5px;
-height: 60px;
-color: rgb(40, 95, 202);
-line-height: 60px;
-font-size: 28px;
-font-weight: 540;
-margin: 20px 0;
+  //background-color: rgb(248, 249, 250);
+  background-color: #1D4193;
+
+  border-radius: 5px;
+  height: 60px;
+  color: #ffffff;
+  line-height: 60px;
+  font-size: 28px;
+  font-weight: 540;
+  margin: 20px 0;
 }

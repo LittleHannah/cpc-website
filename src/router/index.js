@@ -4,6 +4,11 @@ const router = new VueRouter({
   // mode: 'history', // 路由history模式，地址栏不会出现丑丑的 #
   routes: [
     {
+      path: '/',
+      component: () => import('@/views/home/index'),
+      meta: { title: 'Home' }
+    },
+    {
       path: '/home',
       component: () => import('@/views/home/index'),
       meta: { title: 'Home' }

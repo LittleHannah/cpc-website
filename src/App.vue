@@ -41,8 +41,10 @@ export default {
 <style lang="scss">
 .highlight {
   color: var(--main-color) !important;
-}
+  //background-color: #f8f9fa;
 
+}
+//248,249,250
 .nav-links {
   flex-flow: row wrap;
 
