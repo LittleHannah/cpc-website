@@ -16,22 +16,22 @@ const router = new VueRouter({
     {
       path: '/participants',
       component: () => import('@/views/participants/index'),
-      meta: { title: 'Home' }
+      meta: { title: 'Participants' }
     },
     {
       path: '/data',
       component: () => import('@/views/data/index'),
-      meta: { title: 'Home' }
+      meta: { title: 'Data' }
     },
     {
       path: '/publications',
       component: () => import('@/views/publications/index'),
-      meta: { title: 'Home' }
+      meta: { title: 'Publications' }
     },
     {
       path: '/about',
       component: () => import('@/views/about/index'),
-      meta: { title: 'Home' }
+      meta: { title: 'About' }
     }
   ]
 })
