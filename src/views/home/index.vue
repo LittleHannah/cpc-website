@@ -11,9 +11,6 @@
           on 58 core samples representing 36 minority Chinese ethnic groups.
         </p>
         <div style="display:flex;justify-content:space-between;margin-bottom: 40px;">
-          <img src="@/assets/img/home/sample_distribution_new.png" style="width:100%;border-radius: 10px;">
-        </div>
-        <div style="display:flex;justify-content:space-between;margin-bottom: 40px;">
           <div class="digit-card">
             <div style="font-size:80px;font-weight:650;text-align:center;color: #d24733">116</div>
             <div style="font-size:20px;font-weight:400;text-align:center;color:#606266;">high-quality and
@@ -32,6 +29,10 @@
             </div>
           </div>
         </div>
+        <div style="display:flex;justify-content:space-between;margin-bottom: 40px;">
+          <img src="@/assets/img/home/sample_distribution_new.png" style="width:100%;border-radius: 10px;">
+        </div>
+
         <h2>Sequencing Quality</h2>
         <p>
           With > 30.65× High-Fidelity long-reads sequence
@@ -41,13 +42,13 @@
           assembly
           T2T-CHM13, respectively.
         </p>
-        <div style="max-width: 1200px;display:flex;justify-content:space-between;margin-bottom: 40px;font-size: 16px;">
+        <div style="max-width: 1200px;display:flex;justify-content:space-between;margin-bottom: 40px;font-size: 16px;flex-wrap: wrap;">
             <div class="sq-digit-container">
-              <div class="sq-digit">> 30.65×</div>
+              <div class="sq-digit">>30.65×</div>
               <div style="width: 220px;">High-Fidelity long-reads sequence coverage</div>
           </div>
             <div class="sq-digit-container">
-              <div class="sq-digit">> 35.63 Mb</div>
+              <div class="sq-digit">>35.63 Mb</div>
               <div style="width: 220px;">Average contiguity N50</div>
           </div>
             <div  class="sq-digit-container">
@@ -59,7 +60,7 @@
               <div class="sq-digit">~96.54%</div>
               <div style="width: 220px;">Coverage of the latest reference sequence GRCh38</div>
           </div>
-          <div>
+          <div class="sq-digit-container">
             <div class="sq-digit">~93.59%</div>
             <div style="width: 220px;">Coverage of T2T-CHM13</div>
           </div>
@@ -142,18 +143,24 @@ export default {
 
 <style lang="scss" scoped>
 @import '@/scss/index.scss';
-
+p > b {
+  color: #1D4193;
+}
 .sq-digit {
   font-size: 40px;
   font-weight: 650;
-
+  color: #1D4193
 }
 
 .sq-digit-container {
-  padding-right: 10px;
+  padding: 10px 0;
   margin-right: 10px;
-  border-right: 1px solid #DCDFE6;
-  width: 240px;
+  border-radius: 10px;
+  background-color: rgba(218, 230, 239, 0.3);
+  text-align: center;
+  // border-right: 1px solid #DCDFE6;
+  width: 220px;
+  margin-top: 10px;
 }
 
 .digit-card {
