@@ -11,9 +11,13 @@
         </div>
         <div style="display: flex;margin-block-end: 20px; " class="nav-links">
           <router-link active-class="nav-link-active" to="/home">Home</router-link>
+          <p style="color:#606266; "> | </p>
           <router-link active-class="nav-link-active" to="/participants">Participants</router-link>
+          <p style="color:#606266; "> | </p>
           <router-link active-class="nav-link-active" to="/data">Data</router-link>
+          <p style="color:#606266; "> | </p>
           <router-link active-class="nav-link-active" to="/publications">Publications</router-link>
+          <p style="color:#606266; "> | </p>
           <router-link active-class="nav-link-active" to="/about">About</router-link>
         </div>
       </div>
@@ -49,7 +53,8 @@ export default {
   flex-flow: row wrap;
 
   > a {
-    margin-right: 0.75rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
     text-decoration: none;
     font-size: 1.15rem;
     font-weight: 500;
@@ -57,7 +62,8 @@ export default {
   }
 
   > a:hover {
-    color: var(--main-color) !important;
+    //color: var(--main-color) !important;
+    color: #ffab13;
   }
 }
 
