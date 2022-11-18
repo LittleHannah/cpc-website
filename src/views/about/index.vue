@@ -8,7 +8,9 @@
           China is populated with multiple ethnic groups with high cultural and language diversities, including 55
           officially recognized ethnic minority groups in addition to the Han Chinese majority and a considerable number
           of unrecognized ethnic groups. We showed previously that Individuals of Chinese or Asian ancestry harbor a
-          great genomic diversity. As the first effort (Phase I) of the CPC, the current pangenome reference
+          great genomic diversity.</p>
+
+        <p>As the first effort (Phase I) of the CPC, the current pangenome reference
           constructed by the CPC was based on 58 CPC core samples representing 36 of the 55 ethnic minority groups and 8
           linguistic groups. At the stage of Phase II, apart from the initial 58 core samples, CPC aims to produce
           high-quality, phased, chromosome-level haplotype sequences of 500 individuals, which will cover the 56 ethnic
@@ -19,7 +21,9 @@
           that the fully-phased T2T diploid genomes will be paradigm-shift and the new standard in population-level
           genomic studies. In parallel with the effort to document genomic diversity, significant efforts have been
           invested in comprehensively annotating the elements in the CPC genomes that confer function, such as genes,
-          control elements, and transcript isoforms. China has been an important part of the global force of human
+          control elements, and transcript isoforms.</p>
+
+        <p>China has been an important part of the global force of human
           genomics since the Human Genome Project, the International HapMap Project, and the 1000 Genomes Project.
           Despite regional efforts are crucial considering the differentiated genetic makeups of populations in
           different geographical places as we have shown in this first report of CPC, we believe there is great room for
