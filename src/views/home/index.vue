@@ -16,7 +16,9 @@
         <div style="display:flex;justify-content:space-between;margin-bottom: 40px;">
           <div class="digit-card">
             <div style="font-size:80px;font-weight:650;text-align:center;color: #d24733">116</div>
-            <div style="font-size:20px;font-weight:400;text-align:center;color:#606266;">high-quality and haplotype-phased de novo assemblies</div>
+            <div style="font-size:20px;font-weight:400;text-align:center;color:#606266;">high-quality and
+              haplotype-phased de novo assemblies
+            </div>
           </div>
           <div class="digit-card">
             <div style="font-size:80px;font-weight:650;text-align:center;color: #6e982f">58</div>
@@ -25,7 +27,9 @@
           <!--          <div class="digit-card" style="margin-top:50px">-->
           <div class="digit-card">
             <div style="font-size:80px;font-weight:650;text-align:center;color: #ffab13">36</div>
-            <div style="font-size:20px;font-weight:400;text-align:center;color:#606266;">minority Chinese ethnic groups</div>
+            <div style="font-size:20px;font-weight:400;text-align:center;color:#606266;">minority Chinese ethnic
+              groups
+            </div>
           </div>
         </div>
         <h2>Sequencing Quality</h2>
@@ -37,26 +41,27 @@
           assembly
           T2T-CHM13, respectively.
         </p>
-        <div style="display:flex;justify-content:space-between;margin-bottom: 40px;font-size: 16px;">
-          <div class="sq-digit-container">
-            <div class="sq-digit">> 30.65×</div>
-            <div>High-Fidelity long-reads sequence coverage</div>
+        <div style="max-width: 1200px;display:flex;justify-content:space-between;margin-bottom: 40px;font-size: 16px;">
+            <div class="sq-digit-container">
+              <div class="sq-digit">> 30.65×</div>
+              <div style="width: 220px;">High-Fidelity long-reads sequence coverage</div>
           </div>
-          <div class="sq-digit-container">
-            <div class="sq-digit">> 35.63 Mb</div>
-            <div>Average contiguity N50</div>
+            <div class="sq-digit-container">
+              <div class="sq-digit">> 35.63 Mb</div>
+              <div style="width: 220px;">Average contiguity N50</div>
           </div>
-          <div class="sq-digit-container">
-            <div class="sq-digit">3.01 Gb</div>
-            <div>Average total size</div>
+            <div  class="sq-digit-container">
+              <div class="sq-digit">3.01 Gb</div>
+              <div style="width: 220px;">Average total size</div>
           </div>
-          <div class="sq-digit-container">
-            <div class="sq-digit">~96.54%</div>
-            <div>Coverage of the latest reference sequence GRCh38</div>
+
+            <div class="sq-digit-container">
+              <div class="sq-digit">~96.54%</div>
+              <div style="width: 220px;">Coverage of the latest reference sequence GRCh38</div>
           </div>
           <div>
             <div class="sq-digit">~93.59%</div>
-            <div>Coverage of T2T-CHM13</div>
+            <div style="width: 220px;">Coverage of T2T-CHM13</div>
           </div>
         </div>
         <h2>New Findings</h2>
@@ -80,9 +85,9 @@
         <p>Despite over the last two decades the reference human genome sequence has served as the foundation for
           genetic
           and biomedical research and applications, there is a broad consensus that no single reference sequence can
-          represent the genomic diversity of global populations. On one hand, high-quality population-specific and
-          haplotype-resolved genome references are necessary for genetic and medical analysis. On the other hand,
-          there is a clear need to shift from a single reference to a pangenome form that better represents genomic
+          represent the genomic diversity of global populations. On one hand, high-quality <b>population-specific</b> and
+          <b>haplotype-resolved</b>  genome references are necessary for genetic and medical analysis. On the other hand,
+          there is a clear need to shift <b>from a single reference to a pangenome</b> form that better represents genomic
           diversity, or allelic variation within and across human populations.</p>
 
         <p>With the advancement of long-read
@@ -90,14 +95,14 @@
           construction
           to capture the missed variations from a large collection of diverse genomes. The Human Pangenome Reference
           Consortium (HPRC) recently constructed a draft human pangenome reference based on 47 samples of worldwide
-          populations but with East Asian population samples under-represented (n=4). In particular, only three
+          populations but with <b>East Asian population samples under-represented</b> (n=4). In particular, only three
           southern Han Chinese samples are included in the HPRC reference which is inadequate to represent the genomic
           diversity of ethnic groups in a region such as China which is populated by 1.44 billion people. We showed
           previously that the genetic diversity in Asia was not well-covered by large-scale international
           collaborative
-          projects such as the 1000 Genomes Project. China harbors a great genetic diversity with 55 officially
-          recognized ethnic minority groups in addition to the Han Chinese majority and a considerable number of
-          unrecognized ethnic groups. </p>
+          projects such as the 1000 Genomes Project. <b>China harbors</b> a great genetic diversity with <b>55 officially
+          recognized ethnic minority groups</b> in addition to the <b>Han Chinese majority</b> and a considerable number of
+          <b>unrecognized ethnic groups</b>. </p>
 
         <p>Despite advances in sequencing technologies leading to the achievement of a
           Telomere-to-Telomere haploid assembly T2T-CHM137, few Chinese genomes have been de novo assembled to
@@ -107,10 +112,10 @@
           There is an urgency to establish a high-quality pangenome reference that better represents the great genomic
           diversity of Chinese populations.</p>
 
-        <p>The Chinese Pangenome Consortium (CPC) aims to de novo sequence at least 500
-          individuals to better detect and catalog sequence variants of the Chinese populations using the 3rd
+        <p><b>The Chinese Pangenome Consortium (CPC)</b> aims to de novo sequence <b>at least 500
+          individuals</b> to better detect and catalog sequence variants of the Chinese populations using <b>the 3rd
           generation
-          sequencing technologies. Here, we present the draft CPC pangenome reference based on the first sequencing
+          sequencing technologies</b>. Here, we present the draft CPC pangenome reference based on the first sequencing
           effort (Phase I) of the CPC 116 high-quality de novo assemblies from 58 core samples representing 36
           minority
           Chinese ethnic groups and 6 assemblies of the Han Chinese. We employed state-of-art sequencing technologies
@@ -148,7 +153,7 @@ export default {
   padding-right: 10px;
   margin-right: 10px;
   border-right: 1px solid #DCDFE6;
-  width: 20%;
+  width: 240px;
 }
 
 .digit-card {
