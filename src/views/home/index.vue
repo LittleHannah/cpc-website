@@ -10,7 +10,7 @@
           Pangenome Consortium (CPC) with a collection of 116 high-quality and haplotype-phased de novo assemblies based
           on 58 core samples representing 36 minority Chinese ethnic groups.
         </p>
-        <div style="display:flex;justify-content:space-between;margin-bottom: 40px;">
+        <div style="display:flex;justify-content:space-between;margin-bottom: 40px;flex-wrap: wrap">
           <div data-aos="fade-up" class="digit-card">
             <div style="font-size:80px;font-weight:650;text-align:center;color: #d24733">116</div>
             <div style="font-size:20px;font-weight:400;text-align:center;color:#606266;">high-quality and
@@ -165,7 +165,7 @@ p > b {
 .digit-card {
   //background-color: rgba(218, 239, 222, 0.5);
   background-color: rgba(218, 230, 239, 0.3);
-
+  margin-top: 10px;
   //background-color: #F5F7FA;
   border-radius: 10px;
   padding: 10px 20px;
