@@ -11,18 +11,18 @@
           on 58 core samples representing 36 minority Chinese ethnic groups.
         </p>
         <div style="display:flex;justify-content:space-between;margin-bottom: 40px;">
-          <div class="digit-card">
+          <div data-aos="fade-up" class="digit-card">
             <div style="font-size:80px;font-weight:650;text-align:center;color: #d24733">116</div>
             <div style="font-size:20px;font-weight:400;text-align:center;color:#606266;">high-quality and
               haplotype-phased de novo assemblies
             </div>
           </div>
-          <div class="digit-card">
+          <div data-aos="fade-up" class="digit-card">
             <div style="font-size:80px;font-weight:650;text-align:center;color: #6e982f">58</div>
             <div style="font-size:20px;font-weight:400;text-align:center;color:#606266;">core samples</div>
           </div>
           <!--          <div class="digit-card" style="margin-top:50px">-->
-          <div class="digit-card">
+          <div data-aos="fade-up" class="digit-card">
             <div style="font-size:80px;font-weight:650;text-align:center;color: #ffab13">36</div>
             <div style="font-size:20px;font-weight:400;text-align:center;color:#606266;">minority Chinese ethnic
               groups
@@ -30,7 +30,7 @@
           </div>
         </div>
         <div style="display:flex;justify-content:space-between;margin-bottom: 40px;">
-          <img src="@/assets/img/home/sample_distribution_new.png" style="width:100%;border-radius: 10px;">
+          <img data-aos="fade-right" src="@/assets/img/home/sample_distribution_new.png" style="width:100%;border-radius: 10px;">
         </div>
 
         <h2>Sequencing Quality</h2>
@@ -43,24 +43,23 @@
           T2T-CHM13, respectively.
         </p>
         <div style="max-width: 1200px;display:flex;justify-content:space-between;margin-bottom: 40px;font-size: 16px;flex-wrap: wrap;">
-            <div class="sq-digit-container">
-              <div class="sq-digit">>30.65×</div>
-              <div style="width: 220px;">High-Fidelity long-reads sequence coverage</div>
+          <div data-aos="zoom-in" class="sq-digit-container">
+            <div class="sq-digit">>30.65×</div>
+            <div style="width: 220px;">High-Fidelity long-reads sequence coverage</div>
           </div>
-            <div class="sq-digit-container">
-              <div class="sq-digit">>35.63 Mb</div>
-              <div style="width: 220px;">Average contiguity N50</div>
+          <div data-aos="zoom-in" class="sq-digit-container">
+            <div class="sq-digit">>35.63 Mb</div>
+            <div style="width: 220px;">Average contiguity N50</div>
           </div>
-            <div  class="sq-digit-container">
-              <div class="sq-digit">3.01 Gb</div>
-              <div style="width: 220px;">Average total size</div>
+          <div data-aos="zoom-in" class="sq-digit-container">
+            <div class="sq-digit">3.01 Gb</div>
+            <div style="width: 220px;">Average total size</div>
           </div>
-
-            <div class="sq-digit-container">
-              <div class="sq-digit">~96.54%</div>
-              <div style="width: 220px;">Coverage of the latest reference sequence GRCh38</div>
+          <div data-aos="zoom-in" class="sq-digit-container">
+            <div class="sq-digit">~96.54%</div>
+            <div style="width: 220px;">Coverage of the latest reference sequence GRCh38</div>
           </div>
-          <div class="sq-digit-container">
+          <div data-aos="zoom-in" class="sq-digit-container">
             <div class="sq-digit">~93.59%</div>
             <div style="width: 220px;">Coverage of T2T-CHM13</div>
           </div>
