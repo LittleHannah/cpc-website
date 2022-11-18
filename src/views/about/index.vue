@@ -39,7 +39,7 @@
         Contact Us
       </h2>
     <div style="display: flex;flex-wrap: wrap;justify-content: space-between;margin-top: 20px;">
-      <div class="col-sm">
+      <div data-aos="fade-up" class="col-sm">
         <div class="icon-group">
           <div class="icon-border">
             <img src="@/assets/img/about/Group.svg" class="icon-img">
@@ -51,7 +51,7 @@
         </div>
       </div>
 
-      <div class="col-sm">
+      <div data-aos="fade-up" class="col-sm">
         <div class="icon-group">
           <div class="icon-border">
             <img src="@/assets/img/about/institution.svg" class="icon-img">
@@ -63,7 +63,7 @@
         </div>
       </div>
 
-      <div class="col-sm">
+      <div data-aos="fade-up" class="col-sm">
         <div class="icon-group">
           <div class="icon-border">
             <img src="@/assets/img/about/mail.svg" class="icon-img">
@@ -75,7 +75,7 @@
         </div>
       </div>
 
-      <div class="col-sm">
+      <div data-aos="fade-up" class="col-sm">
         <div class="icon-group">
           <div class="icon-border">
             <img src="@/assets/img/about/address.svg" class="icon-img">
