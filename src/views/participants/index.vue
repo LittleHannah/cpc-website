@@ -2,7 +2,7 @@
   <div style="max-width: 1200px; padding: 0 10px 20px">
 
     <div>
-      <h2>Chinese Pangenome Consortium Authors</h2>
+      <h2>Chinese Pangenome Consortium Members</h2>
 
       <div style="display: flex; flex-flow: wrap; text-align: justify;padding: 20px 10px">
         <div class="photo-wrapper" v-for="par in participants" v-bind:key="par.name">
@@ -14,7 +14,7 @@
       </div>
 
 
-      <h2>Author Contributions</h2>
+      <h2>Contributions of CPC Members</h2>
       <div style="display: flex; flex-flow: wrap; text-align: justify">
         <div class="contributions-content">
           <div style="font-size:25px;font-weight:400;color: #285fca;">
@@ -221,7 +221,7 @@
             CPC Website building
           </div>
           <div style="font-size:20px;color:#606266">
-            Xiaohan Zhao.
+            Xiaohan Zhao, Yingbing Shi.
           </div>
         </div>
       </div>
@@ -239,38 +239,57 @@ export default {
     return {
       participants: [
         {name: 'Shuhua Xu', img: require("@/assets/img/participants/shuhuaxu.jpg")},
-        {name: 'Yang Gao', img: require("@/assets/img/participants/YangGao.jpg")},
+        {name: 'Kai Ye', img: require("@/assets/img/participants/yekai.png")},
+        //32.Jiayou Chu6 *,
+        {name: 'Li Jin', img: require("@/assets/img/participants/LiJin.jpg")},
+        {name: 'Dongdong Wu', img: require("@/assets/img/participants/DongdongWu.jpg")},
+        //30.Zhibin Hu7,8,
+        // 21.Xingming Zhao9 ,
+        //袁慧君老师
+        // 27.Xin Jin16
+        //     23.Chao Chen11 ,
+        //     22.Jinchen Li10,11,
+        //     24.Jian Yang12,13,
+        {name: 'Shaoyuan Wu', img: require("@/assets/img/participants/ShaoyuanWu.jpg")},
+
+        {name: 'Yan Lu', img: require("@/assets/img/participants/YanLu.jpg")},
         {name: 'Xiaofei Yang', img: require("@/assets/img/participants/XiaofeiYang.jpg")},
+        {name: 'Lian Deng', img: require("@/assets/img/participants/LianDeng.jpg")},
+        //6.Zhaoqing Yang
+        //14.Hao Sun
+        //     18.Shaohua Fan1 ,
+        //     19.Juncheng Dai7,8,
+        // 28.Binyin Shi17
+
+
+        {name: 'Yang Gao', img: require("@/assets/img/participants/YangGao.jpg")},
+        // {name: 'Xiaofei Yang', img: require("@/assets/img/participants/XiaofeiYang.jpg")},
         {name: 'Hao Chen', img: require("@/assets/img/participants/HaoChen.jpg")},
         {name: 'Xinjiang Tan', img: require("@/assets/img/participants/XinjiangTan.jpg")},
-        //6.Zhaoqing Yang
-        {name: 'Lian Deng', img: require("@/assets/img/participants/LianDeng.jpg")},
         {name: 'Yimin Wang', img: require("@/assets/img/participants/YiminWang.jpg")},
         {name: 'Baonan Wang', img: require("@/assets/img/participants/BaonanWang.jpg")},
         {name: 'Songyang Li', img: require("@/assets/img/participants/SongyangLi.jpg")},
         {name: 'Yuhang Cui', img: require("@/assets/img/participants/YuhangCui.jpg")},
         {name: 'Yuwen Pan', img: require("@/assets/img/participants/YuwenPan.jpg")},
         {name: 'Sen Ma', img: require("@/assets/img/participants/SenMa.jpg")},
-        //14.Hao Sun
         {name: 'Shuang Kong', img: require("@/assets/img/participants/ShuangKong.jpg")},
         {name: 'Xiaohan Zhao', img: require("@/assets/img/participants/xiaohanzhao.jpg")},
         //17.Chuangxue Mao5 ,
-        //     18.Shaohua Fan1 ,
-        //     19.Juncheng Dai7,8,
-        //     20.Chinese Pangenome Consortium#,
-        // 21.Xingming Zhao9 ,
-        //     22.Jinchen Li10,11,
-        //     23.Chao Chen11 ,
-        //     24.Jian Yang12,13,
-        {name: 'Dongdong Wu', img: require("@/assets/img/participants/DongdongWu.jpg")},
-        {name: 'Shaoyuan Wu', img: require("@/assets/img/participants/ShaoyuanWu.jpg")},
-        // 27.Xin Jin16
-        // 28.Binyin Shi17
-        {name: 'Li Jin', img: require("@/assets/img/participants/LiJin.jpg")},
-        //30.Zhibin Hu7,8,
-        {name: 'Yan Lu', img: require("@/assets/img/participants/YanLu.jpg")},
-        //32.Jiayou Chu6 *,
-        {name: 'Kai Ye', img: require("@/assets/img/participants/yekai.png")},
+        {name: 'Yingbing Shi', img: require("@/assets/img/participants/YingbingShi.jpg")},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
       ]
     }
