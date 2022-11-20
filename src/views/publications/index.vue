@@ -3,8 +3,11 @@
     <PublicationList/>
   </div> -->
   <div style="padding:20px 10px">
-    CPC publication is now available in preprint: <a href='https://europepmc.org/article/PPR/PPR557648'>https://europepmc.org/article/PPR/PPR557648</a>.
+    The fist main report of CPC is now available in preprint: <a href='https://europepmc.org/article/PPR/PPR557648'>https://europepmc.org/article/PPR/PPR557648</a> and <a href='https://www.researchsquare.com/article/rs-2097264/v1'>https://www.researchsquare.com/article/rs-2097264/v1</a>.
   </div>
+<!--  <div style="padding:20px 10px">-->
+
+<!--  </div>-->
 </template>
 
 <script>

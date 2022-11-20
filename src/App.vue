@@ -6,17 +6,22 @@
         <div style="height:150px;display: flex;align-items: center;">
           <a style="display:block;font-size:2rem;font-weight: 550;color: #2b4275;">
             <span class="highlight">C</span>hinese <span class="highlight">P</span>angenome <span
-              class="highlight">C</span>onsortium (Phase I)
+              class="highlight">C</span>onsortium
+<!--            class="highlight">C</span>onsortium (Phase I)-->
           </a>
         </div>
         <div style="display: flex; " class="nav-links">
           <router-link active-class="nav-link-active" to="/home">Home</router-link>
+          <p style="color:#606266; "> | </p>
+          <router-link active-class="nav-link-active" to="/phasei">Phase I</router-link>
           <p style="color:#606266; "> | </p>
           <router-link active-class="nav-link-active" to="/participants">Participants</router-link>
           <p style="color:#606266; "> | </p>
           <router-link active-class="nav-link-active" to="/data">Data</router-link>
           <p style="color:#606266; "> | </p>
           <router-link active-class="nav-link-active" to="/publications">Publications</router-link>
+          <p style="color:#606266; "> | </p>
+          <router-link active-class="nav-link-active" to="/conferenceTalks">Conference Talks</router-link>
           <p style="color:#606266; "> | </p>
           <router-link active-class="nav-link-active" to="/about">About</router-link>
         </div>

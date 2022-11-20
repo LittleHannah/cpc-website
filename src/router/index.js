@@ -14,6 +14,11 @@ const router = new VueRouter({
       meta: { title: 'Home' }
     },
     {
+      path: '/phasei',
+      component: () => import('@/views/phasei/index'),
+      meta: { title: 'Phase I' }
+    },
+    {
       path: '/participants',
       component: () => import('@/views/participants/index'),
       meta: { title: 'Participants' }
@@ -27,6 +32,11 @@ const router = new VueRouter({
       path: '/publications',
       component: () => import('@/views/publications/index'),
       meta: { title: 'Publications' }
+    },
+    {
+      path: '/conferenceTalks',
+      component: () => import('@/views/conferenceTalks/index'),
+      meta: { title: 'Conference Talks' }
     },
     {
       path: '/about',

@@ -2,6 +2,8 @@
   <div style="padding: 0px 10px 20px">
     <h2>Code Availability</h2>
     All the codes needed to reproduce the results from this work can be found on GitHub, <a href="https://github.com/orgs/Shuhua-Group/repositories">https://github.com/orgs/Shuhua-Group/repositories</a>.
+    <h2>The CPC Phase I Data Availability</h2>
+    The release of the CPC Phase I data by this work is permitted by The Ministry of Science and Technology of the People’s Republic of China (permission no. 2022BAT2142, 2022BAT1947, and 2022BAT1948) at the National Genomics Data Center  (<a href="https://ngdc.cncb.ac.cn">https://ngdc.cncb.ac.cn</a>).
   </div>
 </template>
 
