@@ -30,7 +30,7 @@
           </div>
         </div>
         <div style="display:flex;justify-content:space-between;margin-bottom: 40px;">
-          <img data-aos="fade-right" src="@/assets/img/home/sample_distribution_new.png" style="width:100%;border-radius: 10px;">
+          <img data-aos="fade-right" src="@/assets/img/phasei/sample_distribution_new.png" style="width:100%;border-radius: 10px;">
         </div>
 
         <h2>Sequencing Quality</h2>
@@ -66,7 +66,7 @@
         </div>
         <!--        新加的图-->
         <div style="display:flex;justify-content:space-between;margin-bottom: 10px;margin-left: 80px;">
-          <img data-aos="fade-right" src="@/assets/img/home/CumulativeCoverage.png" style="width:80%;border-radius: 10px;">
+          <img data-aos="fade-right" src="@/assets/img/phasei/CumulativeCoverage.png" style="width:80%;border-radius: 10px;">
         </div>
         <!--        新加图的注解-->
         <p>
