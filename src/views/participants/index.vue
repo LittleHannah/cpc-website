@@ -277,7 +277,7 @@ export default {
         {name: 'Shuang Kong', img: require("@/assets/img/participants/ShuangKong.jpg")},
         {name: 'Xiaohan Zhao', img: require("@/assets/img/participants/xiaohanzhao.jpg")},
         //17.Chuangxue Mao5 ,
-        {name: 'Yingbing Shi', img: require("@/assets/img/participants/YingbingShi1.jpg")},
+        {name: 'Yingbing Shi', img: require("@/assets/img/participants/YingbingShi.jpg")},
 
 
 
