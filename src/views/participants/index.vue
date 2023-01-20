@@ -258,7 +258,7 @@ export default {
         {name: 'Xiaofei Yang', img: require("@/assets/img/participants/XiaofeiYang.jpg")},
         {name: 'Lian Deng', img: require("@/assets/img/participants/LianDeng.jpg")},
 
-        // {name: 'Hao Sun', img: require("@/assets/img/participants/kongbai.png")},
+        {name: 'Hao Sun', img: require("@/assets/img/participants/kongbai.png")},
         //14.Hao Sun
         {name: 'Shaohua Fan', img: require("@/assets/img/participants/fanshaohua.jpeg")},
 
