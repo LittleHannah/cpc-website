@@ -241,31 +241,31 @@ export default {
         {name: 'Shuhua Xu', img: require("@/assets/img/participants/shuhuaxu.jpg")},
         {name: 'Kai Ye', img: require("@/assets/img/participants/yekai1.jpg")},
         {name: 'Jiayou Chu', img: require("@/assets/img/participants/JiayouChu.jpg")},
-        //32.Jiayou Chu6 *,
         {name: 'Li Jin', img: require("@/assets/img/participants/LiJin.jpg")},
-        {name: 'Dongdong Wu', img: require("@/assets/img/participants/DongdongWu.jpg")},
-        //30.Zhibin Hu7,8,
-        // 21.Xingming Zhao9 ,
-        //袁慧君老师
-        // 27.Xin Jin16
-        //     23.Chao Chen11 ,
-        //     22.Jinchen Li10,11,
-        //     24.Jian Yang12,13,
-        {name: 'Shaoyuan Wu', img: require("@/assets/img/participants/ShaoyuanWu.jpg")},
+        {name: 'Zhaoqing Yang', img: require("@/assets/img/participants/ZhaoqingYang1.jpg")},
+        {name: 'Dongdong Wu', img: require("@/assets/img/participants/wudongdong.jpg")},
+        {name: 'Zhibin Hu', img: require("@/assets/img/participants/huzhibin.jpeg")},
+        {name: 'Xingming Zhao', img: require("@/assets/img/participants/zhaoxingming.jpeg")},
 
+        {name: 'Huijun Yuan', img: require("@/assets/img/participants/kongbai.png")},
+        //袁慧君老师
+        {name: 'Xin Jin', img: require("@/assets/img/participants/jinxin.jpeg")},
+        {name: 'Chao Chen', img: require("@/assets/img/participants/chenchao.jpeg")},
+        {name: 'Jinchen Li', img: require("@/assets/img/participants/lijinchen.jpeg")},
+        {name: 'Jian Yang', img: require("@/assets/img/participants/yangjian.jpeg")},
+        {name: 'Shaoyuan Wu', img: require("@/assets/img/participants/ShaoyuanWu.jpg")},
         {name: 'Yan Lu', img: require("@/assets/img/participants/YanLu.jpg")},
         {name: 'Xiaofei Yang', img: require("@/assets/img/participants/XiaofeiYang.jpg")},
         {name: 'Lian Deng', img: require("@/assets/img/participants/LianDeng.jpg")},
-        {name: 'Zhaoqing Yang', img: require("@/assets/img/participants/ZhaoqingYang1.jpg")},
-        //6.Zhaoqing Yang
+
+        // {name: 'Hao Sun', img: require("@/assets/img/participants/kongbai.png")},
         //14.Hao Sun
-        //     18.Shaohua Fan1 ,
-        //     19.Juncheng Dai7,8,
-        // 28.Binyin Shi17
+        {name: 'Shaohua Fan', img: require("@/assets/img/participants/fanshaohua.jpeg")},
 
+        {name: 'Juncheng Dai', img: require("@/assets/img/participants/Juncheng Dai.jpg")},
 
+        {name: 'Bingyin Shi', img: require("@/assets/img/participants/shibingyin.jpeg")},
         {name: 'Yang Gao', img: require("@/assets/img/participants/YangGao.jpg")},
-        // {name: 'Xiaofei Yang', img: require("@/assets/img/participants/XiaofeiYang.jpg")},
         {name: 'Hao Chen', img: require("@/assets/img/participants/HaoChen.jpg")},
         {name: 'Xinjiang Tan', img: require("@/assets/img/participants/XinjiangTan.jpg")},
         {name: 'Yimin Wang', img: require("@/assets/img/participants/YiminWang.jpg")},
@@ -276,22 +276,9 @@ export default {
         {name: 'Sen Ma', img: require("@/assets/img/participants/SenMa.jpg")},
         {name: 'Shuang Kong', img: require("@/assets/img/participants/ShuangKong.jpg")},
         {name: 'Xiaohan Zhao', img: require("@/assets/img/participants/xiaohanzhao.jpg")},
-        //17.Chuangxue Mao5 ,
-        {name: 'Yingbing Shi', img: require("@/assets/img/participants/YingbingShi.jpg")},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        {name: 'Chuangxue Mao', img: require("@/assets/img/participants/maochuangxue.jpeg")},
+        {name: 'Chang Lei', img: require("@/assets/img/participants/leichang.jpg")},
+        {name: 'Yingbing Shi', img: require("@/assets/img/participants/shiyingbing.jpeg")},
 
       ]
     }
