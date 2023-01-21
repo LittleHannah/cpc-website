@@ -130,14 +130,21 @@
           and computational methods to produce highquality, phased, chromosome-level haplotype sequences that are
           comparable to that of the HPRC.</p>
       </div>
+
+      <h2>Supplementary Information</h2>
+      <my-table style="margin-bottom:40px" v-for="num in tableNums" :key="num" :jsonPath="`table_json/Table S${num}.json`" />
     </div>
   </div>
 </template>
 
 <script>
+import MyTable from '@/components/MyTable.vue'
+
 export default {
+  components: { MyTable },
   data() {
     return {
+      tableNums: Array.from({length:25}, (v,k) => k),
       digits: [
         {digit: 116, description: 'high-quality and haplotype-phased de novo assemblies'},
         {digit: 58, description: 'core samples'},
