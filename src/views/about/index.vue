@@ -1,43 +1,54 @@
 <template>
   <div>
     <h2>
-        Aims and Scope
-      </h2>
-      <div>
-        <p>
-          China is populated with multiple ethnic groups with high cultural and language diversities, including 55
-          officially recognized ethnic minority groups in addition to the Han Chinese majority and a considerable number
-          of unrecognized ethnic groups. We showed previously that Individuals of Chinese or Asian ancestry harbor a
-          great genomic diversity.</p>
+      Aims and Scope
+    </h2>
+    <div>
+      <p>
+        We showed previously that Individuals of Chinese or Asian ancestry harbor a
+        great genomic diversity.China is populated with multiple ethnic groups with high cultural and language
+        diversities, including 55
+        officially recognized ethnic minority groups in addition to the Han Chinese majority and a considerable number
+        of unrecognized ethnic groups. </p>
 
-        <p>As the first effort (Phase I) of the CPC, the current pangenome reference
-          constructed by the CPC was based on 58 CPC core samples representing 36 of the 55 ethnic minority groups and 8
-          linguistic groups. At the stage of Phase II, apart from the initial 58 core samples, CPC aims to produce
-          high-quality, phased, chromosome-level haplotype sequences of 500 individuals, which will cover the 56 ethnic
-          groups as officially defined as well as a number of unidentified ethnic groups that have never been
-          well-covered by any previous work, such as Sherpa, Dolan, Keriyan, Deng, Lop Nur and so on. A more ambitious
-          endeavor of the CPC, most likely at its Phase III or partly at Phase II, is to generate telomere-to-telomere
-          (T2T) chromosome sequence assemblies with both HiFi reads and nanopore ultra-long reads data. We appreciate
-          that the fully-phased T2T diploid genomes will be paradigm-shift and the new standard in population-level
-          genomic studies. In parallel with the effort to document genomic diversity, significant efforts have been
-          invested in comprehensively annotating the elements in the CPC genomes that confer function, such as genes,
-          control elements, and transcript isoforms.</p>
+      <p>As the first effort (Phase I) of the CPC, the current pangenome reference constructed by the CPC was based on
+        58 CPC core samples representing 36 of the 55 ethnic minority groups and 8 linguistic groups. In its plans, in
+        addition to the initial 58 core samples, CPC aims to produce high-quality, phased, chromosome-level haplotype
+        sequences of 500 individuals, which will cover the 56 ethnic groups as officially defined as well as a number of
+        unidentified ethnic groups that have never been well-covered by any previous work, such as Sherpa, Dolan,
+        Keriyan, Deng, and Lop Nur. We appreciate that the fully-phased T2T diploid genomes will be a paradigm shift and
+        the new standard in population-level genomic studies. In parallel with the effort to document genomic
+        diversity, significant efforts have been invested in comprehensively annotating the elements in the CPC genomes
+        that confer function, such as genes, control elements, and transcript isoforms.</p>
 
-        <p>China has been an important part of the global force of human
-          genomics since the Human Genome Project, the International HapMap Project, and the 1000 Genomes Project.
-          Despite regional efforts are crucial considering the differentiated genetic makeups of populations in
-          different geographical places as we have shown in this first report of CPC, we believe there is great room for
-          international collaborations to increase between China and other countries in building the pangenome reference
-          and applying for various basic and clinical research. Similar to many other collaborative projects in human
-          genomics, the success of CPC requires a large team of scientists with expertise in population genomics, genome
-          sequencing technologies, computational biology, and ethics, within China as well as international
-          collaborations. CPC also aims to improve and broaden foundational genomic data resources to be shared with
-          both domestic and international communities.
-        </p>
-      </div>
-      <h2>
-        Contact Us
-      </h2>
+<!--      <p>China has been an important part of the global force of human-->
+<!--        genomics since the Human Genome Project, the International HapMap Project, and the 1000 Genomes Project.-->
+<!--        Despite regional efforts are crucial considering the differentiated genetic makeups of populations in-->
+<!--        different geographical places as we have shown in this first report of CPC, we believe there is great room for-->
+<!--        international collaborations to increase between China and other countries in building the pangenome reference-->
+<!--        and applying for various basic and clinical research. Similar to many other collaborative projects in human-->
+<!--        genomics, the success of CPC requires a large team of scientists with expertise in population genomics, genome-->
+<!--        sequencing technologies, computational biology, and ethics, within China as well as international-->
+<!--        collaborations. CPC also aims to improve and broaden foundational genomic data resources to be shared with-->
+<!--        both domestic and international communities.-->
+<!--      </p>-->
+
+      <p>
+        Annotating the CPC genomes resulted in discovering genes that confer essential functions and underlying natural
+        selection, which are likely associated with phenotypic diversity of disease susceptibility specific to Asian
+        populations. In particular, a considerable proportion of the CPC sequences are of archaic origins and enriched
+        in genes related to keratinization, inflammation, and autoimmune diseases. Moreover, the novel sequences
+        specifically discovered in the CPC pangenome encompassing 6,426 protein-coding genes confer phenotypic diversity
+        or disease susceptibility, including immunological functions. Taken together, the CPC Phase I data have already
+        demonstrated a great potential to trace missing links in human evolution and recover missing heritability in
+        complex trait and disease mapping. We expect the CPC, as an important part of the global force of human
+        genomics, to make a considerable contribution to building high-quality pangenome references and applying them
+        for various basic and clinical research.
+      </p>
+    </div>
+    <h2>
+      Contact Us
+    </h2>
     <div style="display: flex;flex-wrap: wrap;justify-content: space-between;margin-top: 20px;">
       <div data-aos="fade-up" class="col-sm">
         <div class="icon-group">
@@ -102,6 +113,7 @@ export default {
 
 <style lang="scss" scoped>
 @import '@/scss/index.scss';
+
 .el-tabs__content {
   overflow: hidden;
   position: relative;
