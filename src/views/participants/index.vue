@@ -265,7 +265,7 @@ export default {
         {name: 'Bingyin Shi', img: require("@/assets/img/participants/shibingyin.jpeg")},
 
         //14.Hao Sun
-        {name: 'Hao Sun', img: require("@/assets/img/participants/kongbai.png")},
+        {name: 'Hao Sun', img: require("@/assets/img/participants/Hao Sun.jpeg")},
         {name: 'Guanglin He', img: require("@/assets/img/participants/GuanglinHe.jpg")},
         {name: 'Fengxiao Bu', img: require("@/assets/img/participants/FengxiaoBu.jpg")},
         {name: 'Yang Wu', img: require("@/assets/img/participants/YangWu.jpg")},
