@@ -8,7 +8,7 @@
 
       </div>
       <p>
-        Dr. Shuhua Xu gave a talk on CPC Phase I data analysis in the ICG-18 on April 28th, 2023.
+        Dr. Shuhua Xu gave a talk on CPC Phase I data analysis in the ICG-18 on April 27th, 2023.
       </p>
       <div style="display:flex;justify-content:space-between;margin-bottom: 40px;">
         <img data-aos="fade-right" src="@/assets/img/conference/Conference3.jpeg"
