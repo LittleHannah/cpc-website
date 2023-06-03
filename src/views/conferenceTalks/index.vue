@@ -2,6 +2,24 @@
   <div>
     <div style="max-width: 1200px; padding: 0 10px 20px">
 
+
+
+<!--会议四-->
+      <div style="font-size: 20px;font-weight: 600;padding: 10px 0 0">
+        <div style="background-color: #2b4275;border-radius: 5px;padding: 0 0 0;width: fit-content">
+          <p style="color: #ffffff;padding: 5px 10px 5px;">
+            the Road Show of PacBio
+          </p>
+        </div>
+      </div>
+      <p>
+        Dr. Shuhua Xu gave a talk on CPC Phase I data analysis in the Road Show of PacBio on May 26, 2023.
+      </p>
+      <div style="display:flex;justify-content:space-between;margin-bottom: 40px;">
+        <img data-aos="fade-right" src="@/assets/img/conference/Conference4.jpeg"
+             style="width:80%;border-radius: 10px;">
+      </div>
+
       <!--会议3-->
       <!--      <div class="card-content">-->
       <!--        <h2>the 18th Annual Meeting of the International Conference on Genomics</h2>-->
@@ -18,12 +36,13 @@
         </div>
       </div>
       <p>
-        Dr. Shuhua Xu gave a talk on CPC Phase I data analysis in the ICG-18 on April 27th, 2023.
+        Dr. Shuhua Xu gave a talk on CPC Phase I data analysis in the ICG-18 on April 27, 2023.
       </p>
       <div style="display:flex;justify-content:space-between;margin-bottom: 40px;">
         <img data-aos="fade-right" src="@/assets/img/conference/Conference3.jpeg"
              style="width:80%;border-radius: 10px;">
       </div>
+
 
       <!--会议2-->
       <!--      <div class="card-content">-->
