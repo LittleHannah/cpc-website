@@ -249,6 +249,8 @@ export default {
 
         {name: 'Huijun Yuan', img: require("@/assets/img/participants/HuiJunYuan.jpg")},
         //袁慧君老师
+        {name: 'Qiang Gao', img: require("@/assets/img/participants/QiangGao.png")},
+        // {name: 'Xin Jin', img: require("@/assets/img/participants/HuiJunYuan.jpg")},
         {name: 'Xin Jin', img: require("@/assets/img/participants/jinxin.jpeg")},
         {name: 'Chao Chen', img: require("@/assets/img/participants/chenchao.jpeg")},
         {name: 'Jinchen Li', img: require("@/assets/img/participants/lijinchen.jpeg")},
@@ -264,7 +266,7 @@ export default {
         {name: 'Juncheng Dai', img: require("@/assets/img/participants/Juncheng Dai.jpg")},
 
         {name: 'Bingyin Shi', img: require("@/assets/img/participants/shibingyin.jpeg")},
-
+        {name: 'Chaochun Wei', img: require("@/assets/img/participants/ChaochunWei.jpg")},
         //14.Hao Sun
         {name: 'Hao Sun', img: require("@/assets/img/participants/Hao Sun.jpeg")},
         {name: 'Guanglin He', img: require("@/assets/img/participants/GuanglinHe.jpg")},
