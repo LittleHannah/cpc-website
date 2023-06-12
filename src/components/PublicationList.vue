@@ -2,6 +2,7 @@
   <div>
     <ul>
       <li v-for="pub, index in pubList" v-bind:key="index">
+        <a>{{ pub.name }}:</a>
         <a :href="pub.url">{{ pub.citation }}</a>
       </li>
     </ul>
@@ -16,8 +17,8 @@ export default {
   data() {
     return {
       pubList: [
-        {citation: 'publication A', url: 'https://www.baidu.com'},
-        {citation: 'publication B', url: 'https://www.baidu.com'},
+        {name:'A pangenome reference of 36 Chinese populations',citation: 'https://www.nature.com/articles/s41586-023-06173-7', url: 'https://www.nature.com/articles/s41586-023-06173-7'},
+        // {citation: 'publication B', url: 'https://www.baidu.com'},
       ]
     }
   },
@@ -35,7 +36,7 @@ a {
   text-decoration: none;
   font-size: 1.10rem;
   font-weight: 500;
-  color: cornflowerblue;
+  color: #0d6efd;
 
 }
 
