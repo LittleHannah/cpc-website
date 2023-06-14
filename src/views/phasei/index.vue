@@ -30,7 +30,7 @@
           </div>
         </div>
         <div style="display:flex;justify-content:space-between;margin-bottom: 40px;">
-          <img data-aos="fade-right" src="@/assets/img/phasei/sample_distribution_new.png"
+          <img data-aos="fade-right" src="@/assets/img/phasei/sample_distribution.png"
                style="width:100%;border-radius: 10px;">
         </div>
 
