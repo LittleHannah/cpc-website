@@ -10,7 +10,11 @@
       <h4>{{ c }}</h4>
       <ul>
         <li v-for="f in files" :key="f.name" v-if="f.class===c">
-          <a :href='`${fileUrl}/${f.class}/${f.name}`' :download='f.name' target="_blank">
+<!--          <a :href='`${fileUrl}/${f.class}/${f.name}`' :download='f.name' target="_blank">-->
+<!--            {{ f.name }}-->
+<!--          </a>-->
+
+          <a :download='f.name' target="_blank" disabled>
             {{ f.name }}
           </a>
         </li>
@@ -21,7 +25,11 @@
       <h4>{{ c }}</h4>
       <ul>
         <li v-for="f in files" :key="f.name" v-if="f.class===c">
-          <a :href='`${fileUrl}/${f.class}/${f.name}`' :download='f.name' target="_blank">
+<!--          <a :href='`${fileUrl}/${f.class}/${f.name}`' :download='f.name' target="_blank">-->
+<!--            {{ f.name }}-->
+<!--          </a>-->
+
+          <a :download='f.name' target="_blank" disabled="">
             {{ f.name }}
           </a>
         </li>
@@ -63,7 +71,7 @@ export default {
         { name: 'CPC.Phase1.CHM13v2-minaf.0.1.gg', class: 'CPC.Phase1.CHM13v2-minaf.0.1'},
         { name: 'CPC.Phase1.CHM13v2-minaf.0.1.min', class: 'CPC.Phase1.CHM13v2-minaf.0.1'},
         { name: 'CPC.Phase1.CHM13v2-minaf.0.1.xg', class: 'CPC.Phase1.CHM13v2-minaf.0.1'},
-        
+
         { name: 'CPC.HPRC.Phase1.CHM13v2.gfa.gz', class: 'CPC.HPRC.Phase1.CHM13v2'},
         { name: 'CPC.HPRC.Phase1.CHM13v2.dist', class: 'CPC.HPRC.Phase1.CHM13v2'},
         { name: 'CPC.HPRC.Phase1.CHM13v2.gbwt', class: 'CPC.HPRC.Phase1.CHM13v2'},
