@@ -10,13 +10,13 @@
       <h4>{{ c }}</h4>
       <ul>
         <li v-for="f in files" :key="f.name" v-if="f.class===c">
-<!--          <a :href='`${fileUrl}/${f.class}/${f.name}`' :download='f.name' target="_blank">-->
-<!--            {{ f.name }}-->
-<!--          </a>-->
-
-          <a :download='f.name' target="_blank" disabled>
+          <a :href='`${fileUrl}/${f.class}/${f.name}`' :download='f.name' target="_blank">
             {{ f.name }}
           </a>
+
+<!--          <a :download='f.name' target="_blank" disabled>-->
+<!--            {{ f.name }}-->
+<!--          </a>-->
         </li>
       </ul>
     </div>
@@ -25,13 +25,28 @@
       <h4>{{ c }}</h4>
       <ul>
         <li v-for="f in files" :key="f.name" v-if="f.class===c">
-<!--          <a :href='`${fileUrl}/${f.class}/${f.name}`' :download='f.name' target="_blank">-->
-<!--            {{ f.name }}-->
-<!--          </a>-->
-
-          <a :download='f.name' target="_blank" disabled="">
+          <a :href='`${fileUrl}/${f.class}/${f.name}`' :download='f.name' target="_blank">
             {{ f.name }}
           </a>
+
+<!--          <a :download='f.name' target="_blank" disabled="">-->
+<!--            {{ f.name }}-->
+<!--          </a>-->
+        </li>
+      </ul>
+    </div>
+    <h3 style="margin:20px 0">Genome annotation files (*.GFF3) for polished assemblies of 58 core samples</h3>
+    <div style="padding-left:20px" v-for="c in cpcGfff" :key="c">
+      <h4>{{ c }}</h4>
+      <ul>
+        <li v-for="f in files" :key="f.name" v-if="f.class===c">
+          <a :href='`${fileUrl}/${f.class}/${f.name}`' :download='f.name' target="_blank">
+            {{ f.name }}
+          </a>
+
+          <!--          <a :download='f.name' target="_blank" disabled="">-->
+          <!--            {{ f.name }}-->
+          <!--          </a>-->
         </li>
       </ul>
     </div>
@@ -50,8 +65,10 @@ export default {
   data(){
     return {
       fileUrl: `https://pog.fudan.edu.cn/cpc/files`,
+
       cpc: ['CPC.Phase1.CHM13v2-full', 'CPC.Phase1.CHM13v2', 'CPC.Phase1.CHM13v2-minaf.0.1'],
       cpchprc: ['CPC.HPRC.Phase1.CHM13v2', 'CPC.HPRC.Phase1.CHM13v2-minaf.0.1'],
+      cpcGfff: ['CPC.p1.58inds.GFF3'],
       files: [
         { name: 'CPC.Phase1.CHM13v2-full.gfa.gz', class: 'CPC.Phase1.CHM13v2-full'},
         { name: 'CPC.Phase1.CHM13v2-full.gbwt', class: 'CPC.Phase1.CHM13v2-full'},
@@ -85,6 +102,8 @@ export default {
         { name: 'CPC.HPRC.Phase1.CHM13v2-minaf.0.1.gg', class: 'CPC.HPRC.Phase1.CHM13v2-minaf.0.1' },
         { name: 'CPC.HPRC.Phase1.CHM13v2-minaf.0.1.min', class: 'CPC.HPRC.Phase1.CHM13v2-minaf.0.1' },
         { name: 'CPC.HPRC.Phase1.CHM13v2-minaf.0.1.xg', class: 'CPC.HPRC.Phase1.CHM13v2-minaf.0.1' },
+
+        { name: 'CPC.p1.58inds.GFF3.tar.gz', class: 'CPC.p1.58inds.GFF3' },
       ]
     }
   }
