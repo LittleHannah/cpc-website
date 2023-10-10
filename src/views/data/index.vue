@@ -81,6 +81,7 @@ export default {
         { name: 'CPC.Phase1.CHM13v2.gg', class: 'CPC.Phase1.CHM13v2'},
         { name: 'CPC.Phase1.CHM13v2.min', class: 'CPC.Phase1.CHM13v2'},
         { name: 'CPC.Phase1.CHM13v2.xg', class: 'CPC.Phase1.CHM13v2'},
+        { name: 'CPC.Phase1.CHM13v2.vcf.gz', class: 'CPC.Phase1.CHM13v2'},
 
         { name: 'CPC.Phase1.CHM13v2-minaf.0.1.gfa.gz', class: 'CPC.Phase1.CHM13v2-minaf.0.1'},
         { name: 'CPC.Phase1.CHM13v2-minaf.0.1.dist', class: 'CPC.Phase1.CHM13v2-minaf.0.1'},
@@ -95,6 +96,8 @@ export default {
         { name: 'CPC.HPRC.Phase1.CHM13v2.gg', class: 'CPC.HPRC.Phase1.CHM13v2'},
         { name: 'CPC.HPRC.Phase1.CHM13v2.min', class: 'CPC.HPRC.Phase1.CHM13v2'},
         { name: 'CPC.HPRC.Phase1.CHM13v2.xg', class: 'CPC.HPRC.Phase1.CHM13v2'},
+        { name: 'CPC.HPRC.Phase1.CHM13v2.vcf.gz', class: 'CPC.HPRC.Phase1.CHM13v2'},
+
 
         { name: 'CPC.HPRC.Phase1.CHM13v2-minaf.0.1.gfa.gz', class: 'CPC.HPRC.Phase1.CHM13v2-minaf.0.1' },
         { name: 'CPC.HPRC.Phase1.CHM13v2-minaf.0.1.dist', class: 'CPC.HPRC.Phase1.CHM13v2-minaf.0.1' },
