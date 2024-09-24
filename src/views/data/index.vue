@@ -58,8 +58,25 @@
           </a>
         </li>
       </ul>
-    </div>
 
+    </div>
+    <div class="el-upload__tip"
+         @click="frontDownloadB"
+         style="cursor: pointer;"
+    >
+      <h3>
+        The haplotype-resolved de novo assemblies of CPC phase I (remove contigs that contain Epstein-Barr virus (EBV)
+        sequences)
+      </h3>
+      <div style="margin-left: 35px;color: #383d48">
+        <li>
+          <a style="color: var(--bs-link-color);text-decoration: underline;"
+          >
+            EBV.contigs
+          </a>
+        </li>
+      </div>
+    </div>
 
     <div style="margin-top: 50px">
       * CPC pangenome reference includes 122 haplotypes of 61 samples from 36 East Asian populations.<br>
@@ -129,7 +146,20 @@ export default {
 
       ]
     }
+  },
+  methods: {
+    frontDownloadB() {
+      var a = document.createElement("a");  // 创建一个<a />标签
+      a.href = "EBV.contigs";                  // 设置下载文件地址 注意：使用英文
+      a.download = "EBV.contigs";        // 设置下载文件文件名
+      a.style.display = "none";             // 隐藏a标签
+      document.body.appendChild(a);         // 将a标签追加到文档对象中
+      a.click();                            // 点击，浏览器自动下载
+      a.remove();                           // 用完就删除<a />标签
+    },
   }
+
+
 }
 </script>
 
