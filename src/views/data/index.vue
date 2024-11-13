@@ -65,10 +65,14 @@
          style="cursor: pointer;"
     >
       <h3>
-        The haplotype-resolved de novo assemblies of CPC phase I (remove contigs that contain Epstein-Barr virus (EBV)
-        sequences)
+        CPC phase I (updated on Sep 24)
       </h3>
-      <div style="margin-left: 35px;color: #383d48">
+      <div style="margin-left: 20px;">
+        <!--/*        <div style="margin-left: 5px;color: #383d48">*/-->
+        <h4>
+          The haplotype-resolved de novo assemblies (EBV-derived sequences removed)
+        </h4>
+        <!--        </div>-->
         <li>
           <a style="color: var(--bs-link-color);text-decoration: underline;"
           >
@@ -100,7 +104,7 @@ export default {
       fileUrl: `https://pog.fudan.edu.cn/cpc/files`,
 
       cpc: ['CPC.Phase1.CHM13v2-full', 'CPC.Phase1.CHM13v2', 'CPC.Phase1.CHM13v2-minaf.0.1'],
-      cpchprc: ['CPC.HPRC.Phase1.CHM13v2', 'CPC.HPRC.Phase1.CHM13v2-minaf.0.1'],
+      cpchprc: ['CPC.HPRC.Phase1.CHM13v2', 'CPC.HPRC.Phase1.CHM13v2-minaf.0.1', 'CPC.HPRC.Phase1.GRCh38-MAF001.cactus264'],
       cpcGfff: ['CPC.p1.58inds.GFF3'],
       cpcSV: ['CPC.HPRC.Phase1.processed.SVs.normed'],
       files: [
@@ -139,6 +143,17 @@ export default {
         {name: 'CPC.HPRC.Phase1.CHM13v2-minaf.0.1.gg', class: 'CPC.HPRC.Phase1.CHM13v2-minaf.0.1'},
         {name: 'CPC.HPRC.Phase1.CHM13v2-minaf.0.1.min', class: 'CPC.HPRC.Phase1.CHM13v2-minaf.0.1'},
         {name: 'CPC.HPRC.Phase1.CHM13v2-minaf.0.1.xg', class: 'CPC.HPRC.Phase1.CHM13v2-minaf.0.1'},
+
+        {name: 'CPC_HPRC_GRCh38ref_pluschm13cn1.MAF001.xg', class: 'CPC.HPRC.Phase1.GRCh38-MAF001.cactus264'},
+        {name: 'CPC_HPRC_GRCh38ref_pluschm13cn1.MAF001.vcf.gz', class: 'CPC.HPRC.Phase1.GRCh38-MAF001.cactus264'},
+        {name: 'CPC_HPRC_GRCh38ref_pluschm13cn1.MAF001.min', class: 'CPC.HPRC.Phase1.GRCh38-MAF001.cactus264'},
+        {name: 'CPC_HPRC_GRCh38ref_pluschm13cn1.MAF001.gbz', class: 'CPC.HPRC.Phase1.GRCh38-MAF001.cactus264'},
+        {
+          name: 'CPC_HPRC_GRCh38ref_pluschm13cn1.MAF001.for_pangenie.vcf',
+          class: 'CPC.HPRC.Phase1.GRCh38-MAF001.cactus264'
+        },
+        {name: 'CPC_HPRC_GRCh38ref_pluschm13cn1.MAF001.dist', class: 'CPC.HPRC.Phase1.GRCh38-MAF001.cactus264'},
+
 
         {name: 'CPC.p1.58inds.GFF3.tar.gz', class: 'CPC.p1.58inds.GFF3'},
 
