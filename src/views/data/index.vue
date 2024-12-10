@@ -104,7 +104,7 @@ export default {
       fileUrl: `https://pog.fudan.edu.cn/cpc/files`,
 
       cpc: ['CPC.Phase1.CHM13v2-full', 'CPC.Phase1.CHM13v2', 'CPC.Phase1.CHM13v2-minaf.0.1'],
-      cpchprc: ['CPC.HPRC.Phase1.CHM13v2', 'CPC.HPRC.Phase1.CHM13v2-minaf.0.1', 'CPC.HPRC.Phase1.GRCh38-MAF001.cactus264'],
+      cpchprc: ['CPC.HPRC.Phase1.CHM13v2', 'CPC.HPRC.Phase1.CHM13v2-minaf.0.1', 'CPC.HPRC.Phase1.GRCh38-MAF01.cactus264', 'CPC_HPRC_reconstruct_GRCh38ref_T2Tplus_CN1plus', 'CPC_HPRC_reconstruct_GRCh38ref_T2Tplus_CN1plus.full'],
       cpcGfff: ['CPC.p1.58inds.GFF3'],
       cpcSV: ['CPC.HPRC.Phase1.processed.SVs.normed'],
       files: [
@@ -144,15 +144,65 @@ export default {
         {name: 'CPC.HPRC.Phase1.CHM13v2-minaf.0.1.min', class: 'CPC.HPRC.Phase1.CHM13v2-minaf.0.1'},
         {name: 'CPC.HPRC.Phase1.CHM13v2-minaf.0.1.xg', class: 'CPC.HPRC.Phase1.CHM13v2-minaf.0.1'},
 
-        {name: 'CPC_HPRC_GRCh38ref_pluschm13cn1.MAF001.xg', class: 'CPC.HPRC.Phase1.GRCh38-MAF001.cactus264'},
-        {name: 'CPC_HPRC_GRCh38ref_pluschm13cn1.MAF001.vcf.gz', class: 'CPC.HPRC.Phase1.GRCh38-MAF001.cactus264'},
-        {name: 'CPC_HPRC_GRCh38ref_pluschm13cn1.MAF001.min', class: 'CPC.HPRC.Phase1.GRCh38-MAF001.cactus264'},
-        {name: 'CPC_HPRC_GRCh38ref_pluschm13cn1.MAF001.gbz', class: 'CPC.HPRC.Phase1.GRCh38-MAF001.cactus264'},
+        // {name: 'CPC_HPRC_GRCh38ref_pluschm13cn1.MAF001.xg', class: 'CPC.HPRC.Phase1.GRCh38-MAF001.cactus264'},
+        // {name: 'CPC_HPRC_GRCh38ref_pluschm13cn1.MAF001.vcf.gz', class: 'CPC.HPRC.Phase1.GRCh38-MAF001.cactus264'},
+        // {name: 'CPC_HPRC_GRCh38ref_pluschm13cn1.MAF001.min', class: 'CPC.HPRC.Phase1.GRCh38-MAF001.cactus264'},
+        // {name: 'CPC_HPRC_GRCh38ref_pluschm13cn1.MAF001.gbz', class: 'CPC.HPRC.Phase1.GRCh38-MAF001.cactus264'},
+
         {
-          name: 'CPC_HPRC_GRCh38ref_pluschm13cn1.MAF001.for_pangenie.vcf',
-          class: 'CPC.HPRC.Phase1.GRCh38-MAF001.cactus264'
+          name: 'CPC_HPRC_reconstruct_GRCh38ref_T2Tplus_CN1plus.d21.snarls',
+          class: 'CPC.HPRC.Phase1.GRCh38-MAF01.cactus264'
         },
-        {name: 'CPC_HPRC_GRCh38ref_pluschm13cn1.MAF001.dist', class: 'CPC.HPRC.Phase1.GRCh38-MAF001.cactus264'},
+        {
+          name: 'CPC_HPRC_reconstruct_GRCh38ref_T2Tplus_CN1plus.d21.min',
+          class: 'CPC.HPRC.Phase1.GRCh38-MAF01.cactus264'
+        },
+        {
+          name: 'CPC_HPRC_reconstruct_GRCh38ref_T2Tplus_CN1plus.d21.gbz',
+          class: 'CPC.HPRC.Phase1.GRCh38-MAF01.cactus264'
+        },
+        {
+          name: 'CPC_HPRC_reconstruct_GRCh38ref_T2Tplus_CN1plus.d21.dist',
+          class: 'CPC.HPRC.Phase1.GRCh38-MAF01.cactus264'
+        },
+
+        {
+          name: 'CPC_HPRC_reconstruct_GRCh38ref_T2Tplus_CN1plus.snarls',
+          class: 'CPC_HPRC_reconstruct_GRCh38ref_T2Tplus_CN1plus'
+        },
+        {
+          name: 'CPC_HPRC_reconstruct_GRCh38ref_T2Tplus_CN1plus.gbz',
+          class: 'CPC_HPRC_reconstruct_GRCh38ref_T2Tplus_CN1plus'
+        },
+
+
+        {
+          name: 'CPC_HPRC_GRCh38ref_pluschm13cn1.MAF001.xg',
+          class: 'CPC_HPRC_reconstruct_GRCh38ref_T2Tplus_CN1plus.full'
+        },
+        {
+          name: 'CPC_HPRC_GRCh38ref_pluschm13cn1.MAF001.vcf.gz',
+          class: 'CPC_HPRC_reconstruct_GRCh38ref_T2Tplus_CN1plus.full'
+        },
+        {
+          name: 'CPC_HPRC_GRCh38ref_pluschm13cn1.MAF001.min',
+          class: 'CPC_HPRC_reconstruct_GRCh38ref_T2Tplus_CN1plus.full'
+        },
+        {
+          name: 'CPC_HPRC_GRCh38ref_pluschm13cn1.MAF001.gbz',
+          class: 'CPC_HPRC_reconstruct_GRCh38ref_T2Tplus_CN1plus.full'
+        },
+        {
+          name: 'CPC_HPRC_GRCh38ref_pluschm13cn1.MAF001.gbz',
+          class: 'CPC_HPRC_reconstruct_GRCh38ref_T2Tplus_CN1plus.full'
+        },
+
+
+        // {
+        //   name: 'CPC_HPRC_GRCh38ref_pluschm13cn1.MAF001.for_pangenie.vcf',
+        //   class: 'CPC.HPRC.Phase1.GRCh38-MAF001.cactus264'
+        // },
+        // {name: 'CPC_HPRC_GRCh38ref_pluschm13cn1.MAF001.dist', class: 'CPC.HPRC.Phase1.GRCh38-MAF001.cactus264'},
 
 
         {name: 'CPC.p1.58inds.GFF3.tar.gz', class: 'CPC.p1.58inds.GFF3'},
