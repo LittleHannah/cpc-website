@@ -176,26 +176,12 @@ export default {
         },
 
 
-        {
-          name: 'CPC_HPRC_GRCh38ref_pluschm13cn1.MAF001.xg',
-          class: 'CPC_HPRC_reconstruct_GRCh38ref_T2Tplus_CN1plus.full'
-        },
-        {
-          name: 'CPC_HPRC_GRCh38ref_pluschm13cn1.MAF001.vcf.gz',
-          class: 'CPC_HPRC_reconstruct_GRCh38ref_T2Tplus_CN1plus.full'
-        },
-        {
-          name: 'CPC_HPRC_GRCh38ref_pluschm13cn1.MAF001.min',
-          class: 'CPC_HPRC_reconstruct_GRCh38ref_T2Tplus_CN1plus.full'
-        },
-        {
-          name: 'CPC_HPRC_GRCh38ref_pluschm13cn1.MAF001.gbz',
-          class: 'CPC_HPRC_reconstruct_GRCh38ref_T2Tplus_CN1plus.full'
-        },
-        {
-          name: 'CPC_HPRC_GRCh38ref_pluschm13cn1.MAF001.gbz',
-          class: 'CPC_HPRC_reconstruct_GRCh38ref_T2Tplus_CN1plus.full'
-        },
+        {name: 'CPC_HPRC_reconstruct_GRCh38ref_T2Tplus_CN1plus.full.snarls', class: 'CPC_HPRC_reconstruct_GRCh38ref_T2Tplus_CN1plus.full'},
+        {name: 'CPC_HPRC_reconstruct_GRCh38ref_T2Tplus_CN1plus.full.og', class: 'CPC_HPRC_reconstruct_GRCh38ref_T2Tplus_CN1plus.full'},
+        {name: 'CPC_HPRC_reconstruct_GRCh38ref_T2Tplus_CN1plus.full.hal', class: 'CPC_HPRC_reconstruct_GRCh38ref_T2Tplus_CN1plus.full'},
+        {name: 'CPC_HPRC_reconstruct_GRCh38ref_T2Tplus_CN1plus.full.gfa.gz', class: 'CPC_HPRC_reconstruct_GRCh38ref_T2Tplus_CN1plus.full'},
+        {name: 'CPC_HPRC_reconstruct_GRCh38ref_T2Tplus_CN1plus.full.gbz', class: 'CPC_HPRC_reconstruct_GRCh38ref_T2Tplus_CN1plus.full'},
+
 
 
         // {
