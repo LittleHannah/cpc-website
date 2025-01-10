@@ -311,7 +311,7 @@ export default {
 
 
 
-        {name: 'Dongdong Wu', img: require("@/assets/img/participants/wudongdong.jpg")},
+        // {name: 'Dongdong Wu', img: require("@/assets/img/participants/wudongdong.jpg")},
 
         // {name: 'Xin Jin', img: require("@/assets/img/participants/HuiJunYuan.jpg")},
         //14.Hao Sun
